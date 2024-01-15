@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 using TruckCentreWF.Service;
 using TruckCentreWF.Model.Dto;
+using System.Resources;
 
 namespace TruckCentreWF.Forms
 {
@@ -17,10 +18,26 @@ namespace TruckCentreWF.Forms
     {            
         private List<Employee> employees;
 
+        private ResourceManager resourceManager;
         public AccountsAdminForm()
         {
             InitializeComponent();
+
+            // Initialize ResourceManager
+            resourceManager = new ResourceManager("TruckCentreWF.Forms.AccountsAdminForm", typeof(AccountsAdminForm).Assembly);
+
+            // Load data to the grid
             LoadData();
+
+            // Set the theme based on the Employee's theme value
+            if (ApplicationService.CurrEmployee.Theme == 1)
+            {
+                SetNavyTheme();
+            }
+            else
+            {
+                // Leave default green theme
+            }
         }
 
         private async void LoadData()
@@ -48,6 +65,30 @@ namespace TruckCentreWF.Forms
                     employee.Status
                 );
             }
+        }
+
+        private void SetNavyTheme()
+        {
+            // Form Background Color
+            this.BackColor = Color.FromArgb(234, 244, 244);
+            
+            // Background Colors
+            this.dataGridView1.BackgroundColor = Color.FromArgb(150, 180, 208);
+
+            // Foreground Colors
+            foreach (DataGridViewColumn column in dataGridView1.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(20, 40, 80);
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(20, 40, 80);
+            }
+
+            // Buttons
+            this.button1.BackColor = Color.FromArgb(52, 86, 109);
+            this.button2.BackColor = Color.FromArgb(52, 86, 109);
+            this.button3.BackColor = Color.FromArgb(52, 86, 109);
+            this.button1.ForeColor = Color.FromArgb(200, 200, 200);
+            this.button2.ForeColor = Color.FromArgb(200, 200, 200);
+            this.button3.ForeColor = Color.FromArgb(200, 200, 200);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -86,8 +127,11 @@ namespace TruckCentreWF.Forms
                 var selectedEmployee = employees[dataGridView1.SelectedRows[0].Index];
 
                 // Ask for confirmation before deletion
-                var result = MessageBox.Show($"Are you sure you want to delete the account for {selectedEmployee.Username}?",
-                    "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                var result = MessageBox.Show(
+                    string.Format(resourceManager.GetString("msgDeleteConfirmation"), selectedEmployee.Username),
+                    resourceManager.GetString("msgDeleteConfirmationTitle"),
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Question);
 
                 if (result == DialogResult.Yes)
                 {
@@ -96,19 +140,32 @@ namespace TruckCentreWF.Forms
 
                     if (deleted)
                     {
-                        MessageBox.Show("Account deleted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show(
+                            resourceManager.GetString("msgDeleteSuccess"),
+                            resourceManager.GetString("msgSuccessTitle"),
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Information);
                         LoadData();
                     }
                     else
                     {
-                        MessageBox.Show("Failed to delete account.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(
+                            resourceManager.GetString("msgDeleteError"),
+                            resourceManager.GetString("msgErrorTitle"),
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
                     }
                 }
             }
             else
             {
-                MessageBox.Show("Please select a row to delete.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(
+                    resourceManager.GetString("msgNoRowSelectedWarning"),
+                    resourceManager.GetString("msgWarningTitle"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
             }
         }
+
     }
 }

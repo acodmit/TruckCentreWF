@@ -9,9 +9,8 @@ namespace TruckCentreWF.Model.Dto
     public class Vehicle
     {
         public string IdVehicle { get; set; }
-        public int IdTruck { get; set; }
-        public int IdClient { get; set; }
         public string Mileage { get; set; }
+        public string Details { get; set; }
         public DateTime? LastService { get; set; }
 
         public Vehicle()
@@ -19,12 +18,11 @@ namespace TruckCentreWF.Model.Dto
             // Default constructor
         }
 
-        public Vehicle(string idVehicle, int idTruck, int idClient, string mileage, DateTime? lastService)
+        public Vehicle(string idVehicle, string mileage, string details, DateTime? lastService)
         {
             IdVehicle = idVehicle;
-            IdTruck = idTruck;
-            IdClient = idClient;
             Mileage = mileage;
+            Details = details;
             LastService = lastService;
         }
 

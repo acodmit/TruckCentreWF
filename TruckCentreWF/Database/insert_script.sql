@@ -16,32 +16,23 @@ VALUES
   ('client4@example.com', '101 Pine Lane'),
   ('client5@example.com', '222 Cedar Street');
 
--- Insert data into truck table
-INSERT INTO `TruckCentre`.`truck` (`manufacturer`, `modelName`, `modelYear`)
-VALUES
-  ('Ford', 'F150', '2020'),
-  ('Chevrolet', 'Silverado', '2021'),
-  ('Toyota', 'Tundra', '2019'),
-  ('Nissan', 'Titan', '2022'),
-  ('Dodge', 'Ram 1500', '2018');
-
 -- Insert data into vehicle table
-INSERT INTO `TruckCentre`.`vehicle` (`idVehicle`, `idTruck`, `idClient`, `mileage`, `lastService`)
+INSERT INTO `TruckCentre`.`vehicle` (`idVehicle`, `mileage`, `details`, `lastService`)
 VALUES
-  ('VIN12345678901234', 1, 1, '50000', '2022-01-15'),
-  ('VIN23456789012345', 2, 2, '60000', '2022-02-20'),
-  ('VIN34567890123456', 3, 3, '70000', '2022-03-25'),
-  ('VIN45678901234567', 4, 4, '45000', '2022-04-10'),
-  ('VIN56789012345678', 5, 5, '80000', '2022-05-05');
+  ('VIN12345678901234', '50000', "Mercedes Benz Actros", '2022-01-15'),
+  ('VIN23456789012345', '60000', NULL, '2022-02-20'),
+  ('VIN34567890123456', '70000', NULL, '2022-03-25'),
+  ('VIN45678901234567', '45000', "DAF F22T1", '2022-04-10'),
+  ('VIN56789012345678', '80000', NULL, '2022-05-05');
 
 -- Insert data into service_ticket table
-INSERT INTO `TruckCentre`.`service_ticket` (`idAccount`, `details`, `employee_idAccount`)
+INSERT INTO `TruckCentre`.`service_ticket` (`idEmployee`,`idclient`,`details`)
 VALUES
-  (1, 'Regular Maintenance', 1),
-  (2, 'Brake Inspection', 2),
-  (3, 'Oil Change', 3),
-  (4, 'Tire Rotation', 1),
-  (5, 'Diagnostic Check', 4);
+  (1, 1, 'Regular Maintenance'),
+  (2, 2, 'Brake Inspection'),
+  (3, 3,'Oil Change'),
+  (1, 2,'Tire Rotation'),
+  (4, 3,'Diagnostic Check');
 
 -- Insert data into service table
 INSERT INTO `TruckCentre`.`service` (`name`, `serviceFee`, `labour`)

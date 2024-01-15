@@ -26,8 +26,19 @@ CREATE TABLE IF NOT EXISTS `TruckCentre`.`employee` (
   `firstName` VARCHAR(45) NULL,
   `lastName` VARCHAR(45) NULL,
   `theme` INT NOT NULL DEFAULT 0,
-  `language` VARCHAR(2) GENERATED ALWAYS AS ("en") VIRTUAL,
   PRIMARY KEY (`idEmployee`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `TruckCentre`.`vehicle`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `TruckCentre`.`vehicle` (
+  `idVehicle` VARCHAR(17) NOT NULL,
+  `mileage` VARCHAR(10) NOT NULL,
+  `details` VARCHAR(100) NULL,
+  `lastService` DATETIME NULL,
+  PRIMARY KEY (`idVehicle`))
 ENGINE = InnoDB;
 
 
@@ -38,45 +49,9 @@ CREATE TABLE IF NOT EXISTS `TruckCentre`.`client` (
   `idClient` INT NOT NULL AUTO_INCREMENT,
   `email` VARCHAR(45) NOT NULL,
   `address` VARCHAR(45) NOT NULL,
+  `service_ticket_idServiceTicket` INT NULL,
   PRIMARY KEY (`idClient`),
   UNIQUE INDEX `idClient_UNIQUE` (`idClient` ASC) VISIBLE)
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `TruckCentre`.`truck`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `TruckCentre`.`truck` (
-  `idTruck` INT NOT NULL AUTO_INCREMENT,
-  `manufacturer` VARCHAR(20) NOT NULL,
-  `modelName` VARCHAR(20) NOT NULL,
-  `modelYear` CHAR(4) NOT NULL,
-  PRIMARY KEY (`idTruck`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `TruckCentre`.`vehicle`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `TruckCentre`.`vehicle` (
-  `idVehicle` VARCHAR(17) NOT NULL,
-  `idTruck` INT NOT NULL,
-  `idClient` INT NOT NULL,
-  `mileage` VARCHAR(10) NOT NULL,
-  `lastService` DATETIME NULL,
-  PRIMARY KEY (`idVehicle`),
-  INDEX `fk_vehicle_client1_idx` (`idClient` ASC) VISIBLE,
-  INDEX `fk_vehicle_truck1_idx` (`idTruck` ASC) VISIBLE,
-  CONSTRAINT `fk_vehicle_client1`
-    FOREIGN KEY (`idClient`)
-    REFERENCES `TruckCentre`.`client` (`idClient`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_vehicle_truck1`
-    FOREIGN KEY (`idTruck`)
-    REFERENCES `TruckCentre`.`truck` (`idTruck`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 
@@ -85,16 +60,22 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `TruckCentre`.`service_ticket` (
   `idServiceTicket` INT NOT NULL AUTO_INCREMENT,
-  `idAccount` INT NOT NULL,
+  `idEmployee` INT NOT NULL,
+  `idClient` INT NOT NULL,
   `entryDate` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `details` VARCHAR(100) NOT NULL,
   `status` VARCHAR(20) NOT NULL DEFAULT 'Active',
-  `employee_idAccount` INT NOT NULL,
   PRIMARY KEY (`idServiceTicket`),
-  INDEX `fk_service_ticket_employee1_idx` (`employee_idAccount` ASC) VISIBLE,
+  INDEX `fk_service_ticket_employee1_idx` (`idEmployee` ASC) VISIBLE,
+  INDEX `fk_service_ticket_client1_idx` (`idClient` ASC) VISIBLE,
   CONSTRAINT `fk_service_ticket_employee1`
-    FOREIGN KEY (`employee_idAccount`)
+    FOREIGN KEY (`idEmployee`)
     REFERENCES `TruckCentre`.`employee` (`idEmployee`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_service_ticket_client1`
+    FOREIGN KEY (`idClient`)
+    REFERENCES `TruckCentre`.`client` (`idClient`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
@@ -106,7 +87,7 @@ ROW_FORMAT = COMPACT;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `TruckCentre`.`service` (
   `idService` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(60) NOT NULL,
+  `name` VARCHAR(80) NOT NULL,
   `serviceFee` DECIMAL NOT NULL,
   `labour` DECIMAL NOT NULL,
   PRIMARY KEY (`idService`))
@@ -174,7 +155,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `TruckCentre`.`item_service` (
   `idService` INT NOT NULL,
   `idServiceTicket` INT NOT NULL,
-  `name` VARCHAR(40) NULL,
+  `name` VARCHAR(80) NOT NULL,
   `serviceFee` DECIMAL NULL,
   `labour` DECIMAL NULL,
   `labourAmount` INT NULL,

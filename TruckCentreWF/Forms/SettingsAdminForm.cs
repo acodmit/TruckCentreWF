@@ -24,6 +24,16 @@ namespace TruckCentreWF.Forms
 
             // Initializing resourceManager
             resourceManager = new ResourceManager("TruckCentreWF.Forms.SettingsAdminForm", typeof(SettingsAdminForm).Assembly);
+
+            // Set the theme based on the Employee's theme value
+            if (ApplicationService.CurrEmployee.Theme == 1)
+            {
+                SetNavyTheme();
+            }
+            else
+            {
+                // Leave default green theme
+            }
         }
 
         private async void buttonSave_Click(object sender, EventArgs e)
@@ -38,50 +48,46 @@ namespace TruckCentreWF.Forms
             // Fetch the current admin account from the database using the EmployeeService
             Employee currentAdmin = await EmployeeService.GetOneEmployee(new Employee { IdEmployee = currentAdminId });
 
-            // Flag to indicate if language is changed
+            // Flag to indicate if language or theme is changed
             bool languageChanged = false;
+            bool themeChanged = false;
 
             // Check if a valid language is selected
             if (selectedLanguage != -1)
             {
                 // Update the language for the current admin using the ApplicationService method
                 ApplicationService.SetLanguage(selectedLanguage);
-
-                // Create a list to store forms to be closed
-                List<Form> formsToClose = new List<Form>();
-
-                // Collect forms to close
-                foreach (Form form in Application.OpenForms)
-                {
-                    formsToClose.Add(form);
-                }
-
-                // Close the collected forms
-                foreach (Form form in formsToClose)
-                {
-                    form.Hide();
-                }
-
-                // Start a new AdminForm
-                AdminForm adminForm = new AdminForm();
-                adminForm.Show();
-
-                // Set flag to true
                 languageChanged = true;
-
-                // Display a message about language change
-                MessageBox.Show(resourceManager.GetString("msgLanguageChanged"), resourceManager.GetString("lblInformation"), MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-
-            // Flag to indicate if theme is changed
-            bool themeChanged = false;
 
             // Update the theme for the current admin if it's different
             if (selectedTheme != -1 && selectedTheme != currentAdmin.Theme)
             {
+                ApplicationService.CurrEmployee.Theme = selectedTheme;
                 currentAdmin.Theme = selectedTheme;
                 themeChanged = true;
             }
+
+            // Refresh Form if either language or theme is changed
+            if (languageChanged || themeChanged)
+            {
+                RefreshForm();
+
+                // Display a message about language and/or theme change
+                if (languageChanged && themeChanged)
+                {
+                    MessageBox.Show(resourceManager.GetString("msgLanguageAndThemeChanged"), resourceManager.GetString("lblInformation"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (languageChanged)
+                {
+                    MessageBox.Show(resourceManager.GetString("msgLanguageChanged"), resourceManager.GetString("lblInformation"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (themeChanged)
+                {
+                    MessageBox.Show(resourceManager.GetString("msgThemeChanged"), resourceManager.GetString("lblInformation"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+
 
             // Retrieve the new password and repeat password from the TextBox controls
             string newPassword = textBoxPassword.Text;
@@ -94,7 +100,7 @@ namespace TruckCentreWF.Forms
             if (!string.IsNullOrEmpty(newPassword) && newPassword == repeatPassword)
             {
                 // Update the password for the current admin
-                currentAdmin.Password = TruckCentreWF.Util.HashGenerator.GenerateHash(newPassword);
+                currentAdmin.Password = Util.HashGenerator.GenerateHash(newPassword);
 
                 // Set flag to true
                 passwordChanged = true;
@@ -106,7 +112,10 @@ namespace TruckCentreWF.Forms
             }
             else
             {
-                MessageBox.Show(resourceManager.GetString("msgPasswordMismatch"), resourceManager.GetString("lblError"), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(resourceManager.GetString("msgPasswordMismatch"),
+                    resourceManager.GetString("lblError"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
                 return; // Stop further processing
             }
 
@@ -117,19 +126,60 @@ namespace TruckCentreWF.Forms
 
                 if (updateResult)
                 {
-                    MessageBox.Show(resourceManager.GetString("msgSuccesfullUpdate"), resourceManager.GetString("lblSuccess"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(resourceManager.GetString("msgSuccesfullUpdate"),
+                        resourceManager.GetString("lblSuccess"),
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show(resourceManager.GetString("msgFailedUpdate"), resourceManager.GetString("lblError"), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(resourceManager.GetString("msgFailedUpdate"),
+                        resourceManager.GetString("lblError"),
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
                 }
             }
 
             if (!languageChanged && !themeChanged && !passwordChanged)
             {
-                MessageBox.Show(resourceManager.GetString("msgNoChanges"), resourceManager.GetString("lblInformation"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(resourceManager.GetString("msgNoChanges"),
+                    resourceManager.GetString("lblInformation"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
             }
 
+        }
+
+        private void RefreshForm()
+        {
+            // Create a list to store forms to be closed
+            List<Form> formsToClose = new List<Form>();
+
+            // Collect forms to close
+            foreach (Form form in Application.OpenForms)
+            {
+                formsToClose.Add(form);
+            }
+
+            // Close the collected forms
+            foreach (Form form in formsToClose)
+            {
+                form.Hide();
+            }
+
+            // Start a new AdminForm
+            AdminForm adminForm = new AdminForm();
+            adminForm.Show();
+        }
+
+        private void SetNavyTheme()
+        {
+            // Set Form background colors
+            this.BackColor = Color.FromArgb(234, 244, 244);
+            this.buttonSave.BackColor = Color.FromArgb(52, 86, 109);
+
+            // Set Form foregroung colors
+            this.buttonSave.ForeColor = Color.FromArgb(200, 200, 200);
         }
     }
 }

@@ -1,11 +1,12 @@
 ﻿using System;
 
-namespace TruckCentre.Model.Dto
+namespace TruckCentreWF.Model.Dto
 {
     public class ServiceTicket
     {
         public int IdServiceTicket { get; set; }
-        public int IdAccount { get; set; }
+        public int IdEmployee { get; set; }
+        public int IdClient { get; set; }
         public DateTime EntryDate { get; set; }
         public string Details { get; set; }
         public string Status { get; set; }
@@ -15,15 +16,20 @@ namespace TruckCentre.Model.Dto
         {
             // Default constructor
         }
-
-        public ServiceTicket(int idServiceTicket, int idAccount, DateTime entryDate, string details, string status, int employeeIdAccount)
+        public ServiceTicket(int idServiceTicket)
         {
             IdServiceTicket = idServiceTicket;
-            IdAccount = idAccount;
+        }
+
+
+        public ServiceTicket(int idServiceTicket, int idClient, int idEmployee, DateTime entryDate, string details, string status)
+        {
+            IdServiceTicket = idServiceTicket;
+            IdEmployee = idEmployee;
+            IdClient = idClient;
             EntryDate = entryDate;
             Details = details;
             Status = status;
-            EmployeeIdAccount = employeeIdAccount;
         }
 
         public override bool Equals(object obj)

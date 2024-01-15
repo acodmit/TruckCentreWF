@@ -117,62 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="buttonAdd.Text" xml:space="preserve">
-    <value>Dodaj nalog</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="comboBoxTheme.Items" xml:space="preserve">
-    <value>ModerniZeleni</value>
+  <data name="btnInfo.Text" xml:space="preserve">
+    <value>Informationen</value>
   </data>
-  <data name="comboBoxTheme.Items1" xml:space="preserve">
-    <value>PlavoCrveni</value>
+  <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnLogOut.Text" xml:space="preserve">
+    <value>Abmelden</value>
+  </data>
+  <data name="button3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSettings.Text" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAccounts.Text" xml:space="preserve">
+    <value>Benutzerkonten</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHome.Text" xml:space="preserve">
+    <value>Startseite</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelTheme.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 23</value>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 45</value>
   </data>
-  <data name="labelTheme.Text" xml:space="preserve">
-    <value>Tema:</value>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Startseite</value>
   </data>
-  <data name="labelLastName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="labelLastName.Text" xml:space="preserve">
-    <value>Prezime:</value>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="labelFirstName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 23</value>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="labelFirstName.Text" xml:space="preserve">
-    <value>Ime:</value>
+  <data name="lblAccounts" xml:space="preserve">
+    <value>Benutzerkonten</value>
   </data>
-  <data name="checkBoxAdmin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 27</value>
+  <data name="lblHome" xml:space="preserve">
+    <value>Startseite</value>
   </data>
-  <data name="checkBoxAdmin.Text" xml:space="preserve">
-    <value>Admin prava</value>
+  <data name="lblInfo" xml:space="preserve">
+    <value>Informationen</value>
   </data>
-  <data name="comboBoxStatus.Items" xml:space="preserve">
-    <value>Aktivan</value>
+  <data name="lblSettings" xml:space="preserve">
+    <value>Einstellungen</value>
   </data>
-  <data name="comboBoxStatus.Items1" xml:space="preserve">
-    <value>Suspendovan</value>
-  </data>
-  <data name="labelRepeatPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 23</value>
-  </data>
-  <data name="labelRepeatPassword.Text" xml:space="preserve">
-    <value>Ponovi lozinku:</value>
-  </data>
-  <data name="labelPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 23</value>
-  </data>
-  <data name="labelPassword.Text" xml:space="preserve">
-    <value>Lozinka:</value>
-  </data>
-  <data name="labelUsername.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 23</value>
-  </data>
-  <data name="labelUsername.Text" xml:space="preserve">
-    <value>Korisničko ime:</value>
+  <data name="lblLogOut" xml:space="preserve">
+    <value>Abmelden</value>
   </data>
 </root>

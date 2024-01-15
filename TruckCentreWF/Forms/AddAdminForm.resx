@@ -140,6 +140,9 @@
   <data name="&gt;&gt;comboBoxTheme.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="lblError" xml:space="preserve">
+    <value>Error</value>
+  </data>
   <data name="buttonAdd.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
@@ -170,6 +173,9 @@
   <data name="labelLastName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 10.2pt</value>
   </data>
+  <data name="labelFirstName.Text" xml:space="preserve">
+    <value>First Name:</value>
+  </data>
   <data name="&gt;&gt;textBoxLastName.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -189,12 +195,6 @@
   <data name="labelTheme.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 23</value>
   </data>
-  <data name="&gt;&gt;labelStatus.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;comboBoxStatus.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
   <data name="textBoxFirstName.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
@@ -203,9 +203,6 @@
   </data>
   <data name="&gt;&gt;labelTheme.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="textBoxLastName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 413</value>
   </data>
   <data name="textBoxPassword.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 10.2pt</value>
@@ -252,6 +249,9 @@
   <data name="textBoxFirstName.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 10.2pt</value>
   </data>
+  <data name="labelStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
   <data name="labelStatus.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -270,11 +270,17 @@
   <data name="labelTheme.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="msgSuccesfullUpdate" xml:space="preserve">
+    <value>Employee added successfully.</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>X</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>AddAdminForm</value>
+  </data>
+  <data name="labelStatus.Text" xml:space="preserve">
+    <value>Status:</value>
   </data>
   <data name="&gt;&gt;textBoxUsername.ZOrder" xml:space="preserve">
     <value>16</value>
@@ -282,8 +288,8 @@
   <data name="buttonAdd.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 10.2pt</value>
   </data>
-  <data name="labelUsername.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10.2pt</value>
+  <data name="labelPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 107</value>
   </data>
   <data name="labelLastName.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 386</value>
@@ -384,9 +390,6 @@
   <data name="&gt;&gt;buttonAdd.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="textBoxUsername.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
   <data name="&gt;&gt;labelRepeatPassword.Name" xml:space="preserve">
     <value>labelRepeatPassword</value>
   </data>
@@ -423,6 +426,12 @@
   <data name="labelRepeatPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
+  <data name="msgNoChanges" xml:space="preserve">
+    <value>No changes to save.</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="&gt;&gt;labelPassword.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -433,6 +442,9 @@
     <value>Segoe UI, 10.2pt</value>
   </data>
   <data name="comboBoxTheme.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;labelUsername.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
   <data name="&gt;&gt;labelUsername.Name" xml:space="preserve">
@@ -449,9 +461,6 @@
   </data>
   <data name="&gt;&gt;buttonAdd.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="comboBoxStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;label1.Parent" xml:space="preserve">
     <value>$this</value>
@@ -537,8 +546,8 @@
   <data name="&gt;&gt;labelLastName.Name" xml:space="preserve">
     <value>labelLastName</value>
   </data>
-  <data name="&gt;&gt;labelUsername.ZOrder" xml:space="preserve">
-    <value>17</value>
+  <data name="&gt;&gt;comboBoxStatus.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;textBoxRepeatPassword.ZOrder" xml:space="preserve">
     <value>12</value>
@@ -549,8 +558,8 @@
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
     <value>551, 9</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;labelStatus.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -561,11 +570,17 @@
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="msgPasswordMismatch" xml:space="preserve">
+    <value>Passwords do not match. Please re-enter the passwords.</value>
+  </data>
   <data name="labelFirstName.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 23</value>
   </data>
   <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <data name="lblSuccess" xml:space="preserve">
+    <value>Success</value>
   </data>
   <data name="labelStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
@@ -579,8 +594,8 @@
   <data name="&gt;&gt;textBoxFirstName.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="labelStatus.Text" xml:space="preserve">
-    <value>Status:</value>
+  <data name="textBoxLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>160, 413</value>
   </data>
   <data name="buttonAdd.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -597,11 +612,17 @@
   <data name="buttonAdd.Text" xml:space="preserve">
     <value>Add Employee</value>
   </data>
+  <data name="msgFailedUpdate" xml:space="preserve">
+    <value>Failed to add employee. Please check your inputs and try again.</value>
+  </data>
   <data name="labelFirstName.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
   </data>
   <data name="labelTheme.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
+  </data>
+  <data name="&gt;&gt;textBoxLastName.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;textBoxUsername.Parent" xml:space="preserve">
     <value>$this</value>
@@ -624,8 +645,8 @@
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI Semibold, 12pt, style=Bold</value>
   </data>
-  <data name="labelStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="textBoxUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="comboBoxTheme.Items1" xml:space="preserve">
     <value>Blue Red</value>
@@ -648,11 +669,14 @@
   <data name="checkBoxAdmin.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 10.2pt</value>
   </data>
-  <data name="labelFirstName.Text" xml:space="preserve">
-    <value>First Name:</value>
+  <data name="comboBoxStatus.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="labelStatus.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 228</value>
+  </data>
+  <data name="lblPasswordMismatch" xml:space="preserve">
+    <value>Password mismatch</value>
   </data>
   <data name="comboBoxStatus.Items" xml:space="preserve">
     <value>Active</value>
@@ -663,9 +687,6 @@
   <data name="labelFirstName.Location" type="System.Drawing.Point, System.Drawing">
     <value>160, 325</value>
   </data>
-  <data name="&gt;&gt;labelPassword.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
   <data name="comboBoxTheme.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 10.2pt</value>
   </data>
@@ -675,8 +696,8 @@
   <data name="labelLastName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="labelPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 107</value>
+  <data name="labelUsername.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
   </data>
   <data name="labelPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -696,38 +717,13 @@
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
-  <data name="&gt;&gt;textBoxLastName.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;labelPassword.ZOrder" xml:space="preserve">
+    <value>15</value>
   </data>
   <data name="labelLastName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
-    <value>sr-Latn</value>
-  </data>
-<data name="msgPasswordMismatch" xml:space="preserve">
-  <value>Passwords do not match. Please re-enter the passwords.</value>
-</data>
-<data name="msgFailedUpdate" xml:space="preserve">
-  <value>Failed to add employee. Please check your inputs and try again.</value>
-</data>
-<data name="msgSuccesfullUpdate" xml:space="preserve">
-  <value>Employee added successfully.</value>
-</data>
-<data name="msgNoChanges" xml:space="preserve">
-  <value>No changes to save.</value>
-</data>
-<data name="lblError" xml:space="preserve">
-  <value>Error</value>
-</data>
-<data name="lblPasswordMismatch" xml:space="preserve">
-  <value>Password mismatch</value>
-</data>
-<data name="lblSuccess" xml:space="preserve">
-  <value>Success</value>
-</data>
-
+  </metadata>
 </root>

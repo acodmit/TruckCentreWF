@@ -21,7 +21,7 @@ namespace TruckCentreWF.Forms
         private ResourceManager resourceManager;
 
         public AdminForm()
-        {   
+        {
             InitializeComponent();
             SetPanelOpacity(pnlLogo, 0.3f);
 

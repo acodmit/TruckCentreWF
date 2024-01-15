@@ -141,4 +141,28 @@
   <data name="button3.Text" xml:space="preserve">
     <value>Löschen</value>
   </data>
+  <data name="msgDeleteConfirmation" xml:space="preserve">
+    <value>Sind Sie sicher, dass Sie das Konto für {0} löschen möchten?</value>
+  </data>
+  <data name="msgDeleteConfirmationTitle" xml:space="preserve">
+    <value>Bestätigung</value>
+  </data>
+  <data name="msgDeleteSuccess" xml:space="preserve">
+    <value>Konto erfolgreich gelöscht.</value>
+  </data>
+  <data name="msgSuccessTitle" xml:space="preserve">
+    <value>Erfolg</value>
+  </data>
+  <data name="msgDeleteError" xml:space="preserve">
+    <value>Löschen des Kontos fehlgeschlagen.</value>
+  </data>
+  <data name="msgErrorTitle" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="msgNoRowSelectedWarning" xml:space="preserve">
+    <value>Bitte wählen Sie eine Zeile zum Löschen aus.</value>
+  </data>
+  <data name="msgWarningTitle" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
 </root>

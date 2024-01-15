@@ -24,6 +24,16 @@ namespace TruckCentreWF.Forms
 
             // Initializing resourceManager
             resourceManager = new ResourceManager("TruckCentreWF.Forms.AddAdminForm", typeof(AddAdminForm).Assembly);
+
+            // Set the theme based on the Employee's theme value
+            if (ApplicationService.CurrEmployee.Theme == 1)
+            {
+                SetNavyTheme();
+            }
+            else
+            {
+                // Leave default green theme
+            }
         }
 
         private async void buttonAdd_Click(object sender, EventArgs e)
@@ -82,6 +92,26 @@ namespace TruckCentreWF.Forms
         {
             // Minimize the window
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void SetNavyTheme()
+        {
+            // Background Colors
+            this.BackColor = Color.FromArgb(234, 244, 244);
+            this.comboBoxStatus.BackColor = Color.FromArgb(72, 106, 129);
+            this.comboBoxTheme.BackColor = Color.FromArgb(72, 106, 129);
+            this.buttonAdd.BackColor = Color.FromArgb(52, 86, 109);
+
+            // Foreground Colors
+            this.labelUsername.ForeColor = Color.FromArgb(20, 40, 80);
+            this.labelPassword.ForeColor = Color.FromArgb(20, 40, 80);
+            this.labelRepeatPassword.ForeColor = Color.FromArgb(20, 40, 80);
+            this.labelStatus.ForeColor = Color.FromArgb(20, 40, 80);
+            this.labelFirstName.ForeColor = Color.FromArgb(20, 40, 80);
+            this.labelLastName.ForeColor = Color.FromArgb(20, 40, 80);
+            this.labelTheme.ForeColor = Color.FromArgb(20, 40, 80);
+            this.checkBoxAdmin.ForeColor = Color.FromArgb(20, 40, 80);
+            this.buttonAdd.ForeColor = Color.FromArgb(200, 200, 200);
         }
     }
 }

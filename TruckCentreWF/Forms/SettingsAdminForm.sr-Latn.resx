@@ -158,7 +158,7 @@
     <value>Greška!</value>
   </data>
   <data name="lblInformation" xml:space="preserve">
-    <value>Informacija</value>
+    <value>Informacije</value>
   </data>
   <data name="lblSuccess" xml:space="preserve">
     <value>Uspješno</value>
@@ -167,7 +167,7 @@
     <value>Nije uspjelo čuvanje postavki. Molimo pokušajte ponovo.</value>
   </data>
   <data name="msgLanguageChanged" xml:space="preserve">
-    <value>Jezik je promijenjen. Promjene će odmah stupiti na snagu.</value>
+    <value>Jezik uspešno promijenjen.</value>
   </data>
   <data name="msgNoChanges" xml:space="preserve">
     <value>Nema promjena za čuvanje.</value>
@@ -177,5 +177,17 @@
   </data>
   <data name="msgSuccesfullUpdate" xml:space="preserve">
     <value>Postavke uspješno sačuvane!</value>
+  </data>
+  <data name="msgThemeChanged" xml:space="preserve">
+    <value>Tema uspešno promijenjena.</value>
+  </data>
+  <data name="msgLanguageAndThemeChanged" xml:space="preserve">
+    <value>Jezik i tema uspješno promijenjeni.</value>
+  </data>
+  <data name="comboBoxTheme.Items" xml:space="preserve">
+    <value>ModernoZelena</value>
+  </data>
+  <data name="comboBoxTheme.Items1" xml:space="preserve">
+    <value>MornarskoPlava</value>
   </data>
 </root>

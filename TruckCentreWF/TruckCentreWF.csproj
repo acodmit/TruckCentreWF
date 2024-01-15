@@ -35,15 +35,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
-      <HintPath>..\packages\BouncyCastle.Cryptography.2.2.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
-    </Reference>
-    <Reference Include="MaterialDesignColors, Version=2.1.4.0, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
-      <HintPath>..\packages\MaterialDesignColors.2.1.4\lib\net462\MaterialDesignColors.dll</HintPath>
-    </Reference>
-    <Reference Include="MaterialSkin, Version=2.3.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MaterialSkin.2.2.3.1\lib\net48\MaterialSkin.dll</HintPath>
-    </Reference>
     <Reference Include="MySql.Data, Version=8.2.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <HintPath>..\packages\MySql.Data.8.2.0\lib\net48\MySql.Data.dll</HintPath>
     </Reference>
@@ -91,6 +82,18 @@
     <Compile Include="Forms\AddAdminForm.Designer.cs">
       <DependentUpon>AddAdminForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AddServiceTicketEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddServiceTicketEmployeeForm.Designer.cs">
+      <DependentUpon>AddServiceTicketEmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,17 +109,23 @@
     <Compile Include="Forms\Common\TransparentPanel.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms\EmployeeForm.cs">
+    <Compile Include="Forms\GenerateInvoiceEmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\EmployeeForm.Designer.cs">
-      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    <Compile Include="Forms\GenerateInvoiceEmployeeForm.Designer.cs">
+      <DependentUpon>GenerateInvoiceEmployeeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\HomeAdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\HomeAdminForm.Designer.cs">
       <DependentUpon>HomeAdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HomeEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HomeEmployeeForm.Designer.cs">
+      <DependentUpon>HomeEmployeeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\InfoAdminForm.cs">
       <SubType>Form</SubType>
@@ -129,6 +138,12 @@
     </Compile>
     <Compile Include="Forms\LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ServiceTicketsEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ServiceTicketsEmployeeForm.Designer.cs">
+      <DependentUpon>ServiceTicketsEmployeeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SettingsAdminForm.cs">
       <SubType>Form</SubType>
@@ -143,11 +158,19 @@
       <DependentUpon>UpdateAdminForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\Dao\BaseDAO.cs" />
+    <Compile Include="Model\Dao\ClientDAO.cs" />
     <Compile Include="Model\Dao\EmployeeDAO.cs" />
+    <Compile Include="Model\Dao\PartDAO.cs" />
+    <Compile Include="Model\Dao\ServiceDAO.cs" />
     <Compile Include="Model\Dao\ServiceTicketDAO.cs" />
+    <Compile Include="Model\Dao\ServiceTicketVehicleDAO.cs" />
     <Compile Include="Model\Dao\VehicleDAO.cs" />
+    <Compile Include="Model\Dto\Client.cs" />
     <Compile Include="Model\Dto\Employee.cs" />
+    <Compile Include="Model\Dto\Part.cs" />
+    <Compile Include="Model\Dto\Service.cs" />
     <Compile Include="Model\Dto\ServiceTicket.cs" />
+    <Compile Include="Model\Dto\ServiceTicketVehicle.cs" />
     <Compile Include="Model\Dto\Vehicle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -176,6 +199,18 @@
     <EmbeddedResource Include="Forms\AddAdminForm.sr-Latn.resx">
       <DependentUpon>AddAdminForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddServiceTicketEmployeeForm.resx">
+      <DependentUpon>AddServiceTicketEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EmployeeForm.de.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\EmployeeForm.sr-Latn.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AdminForm.de.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +220,9 @@
     <EmbeddedResource Include="Forms\AdminForm.sr-Latn.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GenerateInvoiceEmployeeForm.resx">
+      <DependentUpon>GenerateInvoiceEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\HomeAdminForm.de.resx">
       <DependentUpon>HomeAdminForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,6 +231,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\HomeAdminForm.sr-Latn.resx">
       <DependentUpon>HomeAdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HomeEmployeeForm.de.resx">
+      <DependentUpon>HomeEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HomeEmployeeForm.resx">
+      <DependentUpon>HomeEmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HomeEmployeeForm.sr-Latn.resx">
+      <DependentUpon>HomeEmployeeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\InfoAdminForm.de.resx">
       <DependentUpon>InfoAdminForm.cs</DependentUpon>
@@ -214,6 +261,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.sr.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ServiceTicketsEmployeeForm.resx">
+      <DependentUpon>ServiceTicketsEmployeeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\SettingsAdminForm.de.resx">
       <DependentUpon>SettingsAdminForm.cs</DependentUpon>
@@ -262,6 +313,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\truck.jpg" />
+    <None Include="Resources\background_image.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

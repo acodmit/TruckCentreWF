@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using TruckCentreWF.Model.Dao;
 using TruckCentreWF.Model.Dto;
 
-namespace TruckCentre.Model.Dao
+namespace TruckCentreWF.Model.Dao
 {
     public class VehicleDAO : BaseDAO<Vehicle>
     {
@@ -22,10 +22,9 @@ namespace TruckCentre.Model.Dao
         {
             return new Vehicle(
                 reader.GetString(0),    // IdVehicle
-                reader.GetInt32(1),     // IdTruck
-                reader.GetInt32(2),     // IdClient
-                reader.GetString(3),    // Mileage
-                reader.IsDBNull(4) ? (DateTime?)null : reader.GetDateTime(4)   // LastService
+                reader.GetString(1),    // Mileage
+                reader.IsDBNull(2) ? null : reader.GetString(2),    // Details
+                reader.IsDBNull(3) ? (DateTime?)null : reader.GetDateTime(3)   // LastService
             );
         }
 
@@ -50,13 +49,11 @@ namespace TruckCentre.Model.Dao
         // Compose a SQL command to insert a new vehicle
         protected override MySqlCommand ComposeInsertCommand(Vehicle vehicle, MySqlConnection conn)
         {
-            string query = @"INSERT INTO vehicle (IdVehicle, IdTruck, IdClient, Mileage, LastService) 
-                             VALUES (@IdVehicle, @IdTruck, @IdClient, @Mileage, @LastService)";
+            string query = @"INSERT INTO vehicle ( Mileage, Details, LastService) 
+                             VALUES (@Mileage, @Details, @LastService)";
             MySqlCommand command = new MySqlCommand(query, conn);
-            command.Parameters.AddWithValue("@IdVehicle", vehicle.IdVehicle);
-            command.Parameters.AddWithValue("@IdTruck", vehicle.IdTruck);
-            command.Parameters.AddWithValue("@IdClient", vehicle.IdClient);
             command.Parameters.AddWithValue("@Mileage", vehicle.Mileage);
+            command.Parameters.AddWithValue("@Details", vehicle.Details);
             command.Parameters.AddWithValue("@LastService", vehicle.LastService);
             return command;
         }
@@ -65,13 +62,12 @@ namespace TruckCentre.Model.Dao
         protected override MySqlCommand ComposeUpdateCommand(Vehicle vehicle, MySqlConnection conn)
         {
             string query = @"UPDATE vehicle 
-                             SET IdTruck=@IdTruck, IdClient=@IdClient, Mileage=@Mileage, LastService=@LastService
+                             SET Mileage=@Mileage, Details=@Details, LastService=@LastService
                              WHERE IdVehicle=@IdVehicle";
             MySqlCommand command = new MySqlCommand(query, conn);
             command.Parameters.AddWithValue("@IdVehicle", vehicle.IdVehicle);
-            command.Parameters.AddWithValue("@IdTruck", vehicle.IdTruck);
-            command.Parameters.AddWithValue("@IdClient", vehicle.IdClient);
             command.Parameters.AddWithValue("@Mileage", vehicle.Mileage);
+            command.Parameters.AddWithValue("@Details", vehicle.Details);
             command.Parameters.AddWithValue("@LastService", vehicle.LastService);
             return command;
         }

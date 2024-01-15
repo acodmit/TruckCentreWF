@@ -149,7 +149,7 @@
     <value>ModernGrune</value>
   </data>
   <data name="comboBoxTheme.Items1" xml:space="preserve">
-    <value>BlauRot</value>
+    <value>Marineblau</value>
   </data>
   <data name="labelTheme.Text" xml:space="preserve">
     <value>Thema:</value>
@@ -170,7 +170,7 @@
     <value>Fehler beim Speichern der Einstellungen. Bitte versuchen Sie es erneut.</value>
   </data>
   <data name="msgLanguageChanged" xml:space="preserve">
-    <value>Sprache wurde geändert. Änderungen werden sofort wirksam.</value>
+    <value>Sprache erfolgreich geändert.</value>
   </data>
   <data name="msgNoChanges" xml:space="preserve">
     <value>Keine Änderungen zu speichern.</value>
@@ -180,5 +180,11 @@
   </data>
   <data name="msgSuccesfullUpdate" xml:space="preserve">
     <value>Einstellungen erfolgreich gespeichert!</value>
+  </data>
+  <data name="msgThemeChanged" xml:space="preserve">
+    <value>Thema erfolgreich geändert.</value>
+  </data>
+  <data name="msgLanguageAndThemeChanged" xml:space="preserve">
+    <value>Sprache und Thema erfolgreich geändert.</value>
   </data>
 </root>

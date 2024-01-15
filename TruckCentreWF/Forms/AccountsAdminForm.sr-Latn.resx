@@ -169,4 +169,28 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>900, 510</value>
   </data>
+  <data name="msgDeleteConfirmation" xml:space="preserve">
+    <value>Da li ste sigurni da želite da obrišete nalog za {0}?</value>
+  </data>
+  <data name="msgDeleteConfirmationTitle" xml:space="preserve">
+    <value>Potvrda</value>
+  </data>
+  <data name="msgDeleteSuccess" xml:space="preserve">
+    <value>Nalog uspešno obrisan.</value>
+  </data>
+  <data name="msgSuccessTitle" xml:space="preserve">
+    <value>Uspeh</value>
+  </data>
+  <data name="msgDeleteError" xml:space="preserve">
+    <value>Neuspelo brisanje naloga.</value>
+  </data>
+  <data name="msgErrorTitle" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="msgNoRowSelectedWarning" xml:space="preserve">
+    <value>Molimo vas da izaberete red za brisanje.</value>
+  </data>
+  <data name="msgWarningTitle" xml:space="preserve">
+    <value>Upozorenje</value>
+  </data>
 </root>
