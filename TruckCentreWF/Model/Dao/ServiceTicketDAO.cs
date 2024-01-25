@@ -153,7 +153,7 @@ namespace TruckCentreWF.Model.Dao
             return 0;
         }
 
-        public async Task<int> Insert(ServiceTicket serviceTicket)
+        new public async Task<int> Insert(ServiceTicket serviceTicket)
         {
             using (var scope = new TransactionScope(TransactionScopeAsyncFlowOption.Enabled))
             {
@@ -182,13 +182,14 @@ namespace TruckCentreWF.Model.Dao
                         }
                         else
                         {
-                            // Log or handle the error appropriately
+                            // Handle the error appropriately
                             return -1;
                         }
                     }
                     catch (Exception ex)
                     {
-                        // Log or handle the exception appropriately
+                        // Handle the exception appropriately
+                        Console.Write(ex.StackTrace);
                         return -1;
                     }
                 }

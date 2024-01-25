@@ -117,7 +117,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="buttonAdd.Text" xml:space="preserve">
+    <value>Ažuriraj nalog</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelTheme.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 23</value>
+  </data>
+  <data name="labelTheme.Text" xml:space="preserve">
+    <value>Tema:</value>
+  </data>
+  <data name="labelLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="labelLastName.Text" xml:space="preserve">
+    <value>Prezime:</value>
+  </data>
+  <data name="labelFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 23</value>
+  </data>
+  <data name="labelFirstName.Text" xml:space="preserve">
+    <value>Ime:</value>
+  </data>
+  <data name="checkBoxAdmin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 27</value>
+  </data>
+  <data name="checkBoxAdmin.Text" xml:space="preserve">
+    <value>Administratorska prava</value>
+  </data>
+  <data name="labelRepeatPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 23</value>
+  </data>
+  <data name="labelRepeatPassword.Text" xml:space="preserve">
+    <value>Ponovljena lozinka:</value>
+  </data>
+  <data name="labelPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 23</value>
+  </data>
+  <data name="labelPassword.Text" xml:space="preserve">
+    <value>Lozinka:</value>
+  </data>
   <data name="labelUsername.Size" type="System.Drawing.Size, System.Drawing">
     <value>124, 23</value>
   </data>

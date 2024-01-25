@@ -121,18 +121,6 @@
   <data name="dataGridView1.ColumnHeadersHeight" type="System.Int32, mscorlib">
     <value>29</value>
   </data>
-  <metadata name="IdEmployee.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="IdEmployee.HeaderText" xml:space="preserve">
-    <value>IdEmployee</value>
-  </data>
-  <data name="IdEmployee.MinimumWidth" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="IdEmployee.Width" type="System.Int32, mscorlib">
-    <value>125</value>
-  </data>
   <metadata name="Username.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -149,7 +137,7 @@
     <value>True</value>
   </metadata>
   <data name="IsAdmin.HeaderText" xml:space="preserve">
-    <value>IsAdmin</value>
+    <value>Is Admin?</value>
   </data>
   <data name="IsAdmin.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
@@ -161,7 +149,7 @@
     <value>True</value>
   </metadata>
   <data name="FirstName.HeaderText" xml:space="preserve">
-    <value>FirstName</value>
+    <value>First Name</value>
   </data>
   <data name="FirstName.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
@@ -173,7 +161,7 @@
     <value>True</value>
   </metadata>
   <data name="LastName.HeaderText" xml:space="preserve">
-    <value>LastName</value>
+    <value>Last Name</value>
   </data>
   <data name="LastName.MinimumWidth" type="System.Int32, mscorlib">
     <value>6</value>
@@ -210,7 +198,7 @@
     <value>60, 50</value>
   </data>
   <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
-    <value>51</value>
+    <value>50</value>
   </data>
   <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
     <value>802, 355</value>
@@ -350,12 +338,6 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>AccountsAdminForm</value>
-  </data>
-  <data name="&gt;&gt;IdEmployee.Name" xml:space="preserve">
-    <value>IdEmployee</value>
-  </data>
-  <data name="&gt;&gt;IdEmployee.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Username.Name" xml:space="preserve">
     <value>Username</value>

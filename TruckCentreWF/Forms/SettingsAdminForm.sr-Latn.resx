@@ -190,4 +190,7 @@
   <data name="comboBoxTheme.Items1" xml:space="preserve">
     <value>MornarskoPlava</value>
   </data>
+  <data name="msgChangesSaved" xml:space="preserve">
+    <value>Promjene uspješno sačuvane!</value>
+  </data>
 </root>

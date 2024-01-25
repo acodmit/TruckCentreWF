@@ -49,9 +49,10 @@ namespace TruckCentreWF.Model.Dao
         // Compose a SQL command to insert a new vehicle
         protected override MySqlCommand ComposeInsertCommand(Vehicle vehicle, MySqlConnection conn)
         {
-            string query = @"INSERT INTO vehicle ( Mileage, Details, LastService) 
-                             VALUES (@Mileage, @Details, @LastService)";
+            string query = @"INSERT INTO vehicle ( IdVehicle, Mileage, Details, LastService) 
+                             VALUES (@IdVehicle, @Mileage, @Details, @LastService)";
             MySqlCommand command = new MySqlCommand(query, conn);
+            command.Parameters.AddWithValue("@IdVehicle", vehicle.IdVehicle);
             command.Parameters.AddWithValue("@Mileage", vehicle.Mileage);
             command.Parameters.AddWithValue("@Details", vehicle.Details);
             command.Parameters.AddWithValue("@LastService", vehicle.LastService);

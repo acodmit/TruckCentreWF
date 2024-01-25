@@ -51,7 +51,10 @@ namespace TruckCentreWF.Forms
             // Validate password and repeated password
             if (password != repeatPassword)
             {
-                MessageBox.Show(resourceManager.GetString("msgPasswordMismatch"), resourceManager.GetString("lblPasswordMismatch"), MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(resourceManager.GetString("msgPasswordMismatch"),
+                    resourceManager.GetString("lblPasswordMismatch"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Warning);
                 return;
             }
 
@@ -68,17 +71,26 @@ namespace TruckCentreWF.Forms
 
                 if (addedSuccessfully)
                 {
-                    MessageBox.Show(resourceManager.GetString("msgSuccesfullUpdate"), resourceManager.GetString("lblSuccess"), MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(resourceManager.GetString("msgSuccesfullUpdate"),
+                        resourceManager.GetString("lblSuccess"),
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
                     // Close the form or perform any other necessary actions
                 }
                 else
                 {
-                    MessageBox.Show(resourceManager.GetString("msgFailedUpdate"), resourceManager.GetString("lblError"), MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(resourceManager.GetString("msgFailedUpdate"),
+                        resourceManager.GetString("lblError"),
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"An error occurred: {ex.Message}",
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
             }
         }
 

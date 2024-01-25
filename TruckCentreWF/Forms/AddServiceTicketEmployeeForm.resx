@@ -117,4 +117,384 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblMinimise.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblMinimise.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="lblMinimise.Location" type="System.Drawing.Point, System.Drawing">
+    <value>645, 9</value>
+  </data>
+  <data name="lblMinimise.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 23</value>
+  </data>
+  <data name="lblMinimise.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblMinimise.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Name" xml:space="preserve">
+    <value>lblMinimise</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblExit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="lblExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>668, 9</value>
+  </data>
+  <data name="lblExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 23</value>
+  </data>
+  <data name="lblExit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblExit.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Name" xml:space="preserve">
+    <value>lblExit</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 525</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 23</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Insert ticket details:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblInstruction.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInstruction.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="lblInstruction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 49</value>
+  </data>
+  <data name="lblInstruction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>409, 23</value>
+  </data>
+  <data name="lblInstruction.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblInstruction.Text" xml:space="preserve">
+    <value>To create a new ticket, select both client and vehicle:</value>
+  </data>
+  <data name="&gt;&gt;lblInstruction.Name" xml:space="preserve">
+    <value>lblInstruction</value>
+  </data>
+  <data name="&gt;&gt;lblInstruction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInstruction.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblInstruction.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 686</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 35</value>
+  </data>
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBoxDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="textBoxDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 560</value>
+  </data>
+  <data name="textBoxDetails.MaxLength" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="textBoxDetails.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 100</value>
+  </data>
+  <data name="textBoxDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxDetails.Name" xml:space="preserve">
+    <value>textBoxDetails</value>
+  </data>
+  <data name="&gt;&gt;textBoxDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxDetails.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dataGridViewVehicles.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="dataGridViewVehicles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 303</value>
+  </data>
+  <data name="dataGridViewVehicles.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dataGridViewVehicles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 200</value>
+  </data>
+  <data name="dataGridViewVehicles.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewVehicles.Name" xml:space="preserve">
+    <value>dataGridViewVehicles</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewVehicles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewVehicles.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewVehicles.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="IdVehicle.HeaderText" xml:space="preserve">
+    <value>IdVehicle</value>
+  </data>
+  <data name="IdVehicle.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="IdVehicle.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="Mileage.HeaderText" xml:space="preserve">
+    <value>Mileage</value>
+  </data>
+  <data name="Mileage.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Mileage.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="VehicleDetails.HeaderText" xml:space="preserve">
+    <value>VehicleDetails</value>
+  </data>
+  <data name="VehicleDetails.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="VehicleDetails.Width" type="System.Int32, mscorlib">
+    <value>220</value>
+  </data>
+  <data name="LastService.HeaderText" xml:space="preserve">
+    <value>LastService</value>
+  </data>
+  <data name="LastService.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LastService.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="dataGridViewClients.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="ClientName.HeaderText" xml:space="preserve">
+    <value>ClientName</value>
+  </data>
+  <data name="ClientName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ClientName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="Email.HeaderText" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Email.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Email.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="Address.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Address.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Address.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewClients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 85</value>
+  </data>
+  <data name="dataGridViewClients.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dataGridViewClients.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 200</value>
+  </data>
+  <data name="dataGridViewClients.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewClients.Name" xml:space="preserve">
+    <value>dataGridViewClients</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewClients.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewClients.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewClients.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>700, 750</value>
+  </data>
+  <data name="&gt;&gt;IdVehicle.Name" xml:space="preserve">
+    <value>IdVehicle</value>
+  </data>
+  <data name="&gt;&gt;IdVehicle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Mileage.Name" xml:space="preserve">
+    <value>Mileage</value>
+  </data>
+  <data name="&gt;&gt;Mileage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VehicleDetails.Name" xml:space="preserve">
+    <value>VehicleDetails</value>
+  </data>
+  <data name="&gt;&gt;VehicleDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LastService.Name" xml:space="preserve">
+    <value>LastService</value>
+  </data>
+  <data name="&gt;&gt;LastService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClientName.Name" xml:space="preserve">
+    <value>ClientName</value>
+  </data>
+  <data name="&gt;&gt;ClientName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Email.Name" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="&gt;&gt;Email.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Address.Name" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="&gt;&gt;Address.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AddServiceTicketEmployeeForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>TruckCentreWF.Forms.DraggableForm, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblError" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="lblInformation" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="lblSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="lblWarning" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="msgErrorClientId" xml:space="preserve">
+    <value>Error taking client.</value>
+  </data>
+  <data name="msgFailedAdding" xml:space="preserve">
+    <value>Error adding service ticket.</value>
+  </data>
+  <data name="msgSelect" xml:space="preserve">
+    <value>Please select a client and a vehicle.</value>
+  </data>
+  <data name="msgServiceDetails" xml:space="preserve">
+    <value>Please enter service details.</value>
+  </data>
+  <data name="msgSuccesfullyAdded" xml:space="preserve">
+    <value>Service ticket and associated vehicle added successfully.</value>
+  </data>
 </root>

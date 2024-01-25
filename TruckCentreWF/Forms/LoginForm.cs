@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Threading;
 
 using TruckCentreWF.Service;
+using System.Globalization;
 
 namespace TruckCentreWF.Forms
 {

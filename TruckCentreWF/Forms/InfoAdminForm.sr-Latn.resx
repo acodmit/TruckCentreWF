@@ -148,16 +148,4 @@
   <data name="labelTotalVehicles.Text" xml:space="preserve">
     <value>Ukupno vozila: Učitavanje...</value>
   </data>
-<data name="labelActiveTickets" xml:space="preserve">
-    <value>Trenutno ima {0} aktivnih servisnih tiketa u toku.</value>
-</data>
-<data name="labelFinishedTickets" xml:space="preserve">
-    <value>{0} servisnih tiketa je uspješno završeno.</value>
-</data>
-<data name="labelTotalEmployees" xml:space="preserve">
-    <value>Naš tim broji {0} zaposlenih.</value>
-</data>
-<data name="labelTotalVehicles" xml:space="preserve">
-    <value>Naš vozni park obuhvata {0} vozila.</value>
-</data>
 </root>

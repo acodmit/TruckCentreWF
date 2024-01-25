@@ -47,9 +47,9 @@ ENGINE = InnoDB;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `TruckCentre`.`client` (
   `idClient` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(80) NULL DEFAULT 'Unknown',
   `email` VARCHAR(45) NOT NULL,
   `address` VARCHAR(45) NOT NULL,
-  `service_ticket_idServiceTicket` INT NULL,
   PRIMARY KEY (`idClient`),
   UNIQUE INDEX `idClient_UNIQUE` (`idClient` ASC) VISIBLE)
 ENGINE = InnoDB;
@@ -71,13 +71,13 @@ CREATE TABLE IF NOT EXISTS `TruckCentre`.`service_ticket` (
   CONSTRAINT `fk_service_ticket_employee1`
     FOREIGN KEY (`idEmployee`)
     REFERENCES `TruckCentre`.`employee` (`idEmployee`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `fk_service_ticket_client1`
     FOREIGN KEY (`idClient`)
     REFERENCES `TruckCentre`.`client` (`idClient`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB
 ROW_FORMAT = COMPACT;
 
@@ -87,7 +87,7 @@ ROW_FORMAT = COMPACT;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `TruckCentre`.`service` (
   `idService` INT NOT NULL AUTO_INCREMENT,
-  `name` VARCHAR(80) NOT NULL,
+  `name` VARCHAR(60) NOT NULL,
   `serviceFee` DECIMAL NOT NULL,
   `labour` DECIMAL NOT NULL,
   PRIMARY KEY (`idService`))
@@ -118,8 +118,8 @@ CREATE TABLE IF NOT EXISTS `TruckCentre`.`service_invoice` (
   CONSTRAINT `fk_service_invoice_service_ticket1`
     FOREIGN KEY (`idServiceTicket`)
     REFERENCES `TruckCentre`.`service_ticket` (`idServiceTicket`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -139,13 +139,13 @@ CREATE TABLE IF NOT EXISTS `TruckCentre`.`item_part` (
   CONSTRAINT `fk_item_part_part1`
     FOREIGN KEY (`serialNumber`)
     REFERENCES `TruckCentre`.`part` (`serialNumber`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `fk_item_part_service_ticket1`
     FOREIGN KEY (`idServiceTicket`)
     REFERENCES `TruckCentre`.`service_ticket` (`idServiceTicket`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -155,7 +155,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `TruckCentre`.`item_service` (
   `idService` INT NOT NULL,
   `idServiceTicket` INT NOT NULL,
-  `name` VARCHAR(80) NOT NULL,
+  `name` VARCHAR(100) NULL,
   `serviceFee` DECIMAL NULL,
   `labour` DECIMAL NULL,
   `labourAmount` INT NULL,
@@ -166,13 +166,13 @@ CREATE TABLE IF NOT EXISTS `TruckCentre`.`item_service` (
   CONSTRAINT `fk_item_service_service1`
     FOREIGN KEY (`idService`)
     REFERENCES `TruckCentre`.`service` (`idService`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `fk_item_service_service_ticket1`
     FOREIGN KEY (`idServiceTicket`)
     REFERENCES `TruckCentre`.`service_ticket` (`idServiceTicket`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 
@@ -187,13 +187,13 @@ CREATE TABLE IF NOT EXISTS `TruckCentre`.`service_ticket_vehicle` (
   CONSTRAINT `fk_service_ticket_vehicle_service_ticket1`
     FOREIGN KEY (`idServiceTicket`)
     REFERENCES `TruckCentre`.`service_ticket` (`idServiceTicket`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
   CONSTRAINT `fk_service_ticket_vehicle_vehicle1`
     FOREIGN KEY (`idVehicle`)
     REFERENCES `TruckCentre`.`vehicle` (`idVehicle`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
 ENGINE = InnoDB;
 
 

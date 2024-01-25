@@ -187,4 +187,7 @@
   <data name="msgLanguageAndThemeChanged" xml:space="preserve">
     <value>Sprache und Thema erfolgreich geändert.</value>
   </data>
+  <data name="msgChangesSaved" xml:space="preserve">
+    <value>Änderungen erfolgreich gespeichert!</value>
+  </data>
 </root>

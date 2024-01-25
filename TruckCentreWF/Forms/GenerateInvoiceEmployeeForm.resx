@@ -117,4 +117,925 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1480, 640</value>
+  </data>
+  <data name="lblExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
+  </data>
+  <data name="&gt;&gt;btnAddPart.Name" xml:space="preserve">
+    <value>btnAddPart</value>
+  </data>
+  <data name="lblSelectedServices.Text" xml:space="preserve">
+    <value>Selected services:</value>
+  </data>
+  <data name="&gt;&gt;btnAddPart.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMinimise.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dataGridViewItemParts.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="UnitPrice.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="msgErrorGettingPart" xml:space="preserve">
+    <value>Error getting selected part.</value>
+  </data>
+  <data name="lblSelectedParts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="ItemServicePrice.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="msgNoTicket" xml:space="preserve">
+    <value>No processing ticket available.</value>
+  </data>
+  <data name="&gt;&gt;textBoxQuantityService.Name" xml:space="preserve">
+    <value>textBoxQuantityService</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="labelQuantityService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 23</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewItemServices.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAddService.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Labour.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="PartName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="ServiceName.HeaderText" xml:space="preserve">
+    <value>Service Name</value>
+  </data>
+  <data name="textBoxQuantityService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 30</value>
+  </data>
+  <data name="btnAddPart.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSelectedParts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>755, 44</value>
+  </data>
+  <data name="lblMinimise.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="labelQuantityPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 46</value>
+  </data>
+  <data name="&gt;&gt;PartName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelectedParts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxQuantityPart.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ItemPartPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAddService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 377</value>
+  </data>
+  <data name="labelQuantityPart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnAddService.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ServiceFee.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="labelService.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;Labour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnShowInvoice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="lblExit.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="msgFailedDeletingItemPart" xml:space="preserve">
+    <value>Error deleting item part.</value>
+  </data>
+  <data name="SerialNumber.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelQuantityPart.Name" xml:space="preserve">
+    <value>labelQuantityPart</value>
+  </data>
+  <data name="lblSelectedServices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ServiceName.Name" xml:space="preserve">
+    <value>ServiceName</value>
+  </data>
+  <data name="&gt;&gt;labelService.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="UnitPrice.HeaderText" xml:space="preserve">
+    <value>Unit Price</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewServices.Name" xml:space="preserve">
+    <value>dataGridViewServices</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ItemServicePrice.HeaderText" xml:space="preserve">
+    <value>Item Service Price</value>
+  </data>
+  <data name="msgValidQuantity" xml:space="preserve">
+    <value>Please enter a valid quantity.</value>
+  </data>
+  <data name="dataGridViewParts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 70</value>
+  </data>
+  <data name="dataGridViewParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 200</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAddService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 35</value>
+  </data>
+  <data name="lblSelectedParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 23</value>
+  </data>
+  <data name="btnRemovePart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="msgSuccessfullyDeletedItemService" xml:space="preserve">
+    <value>Item service deleted successfully.</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn6</value>
+  </data>
+  <data name="btnRemovePart.Text" xml:space="preserve">
+    <value>Remove Part</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewParts.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 28</value>
+  </data>
+  <data name="dataGridViewItemServices.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;textBoxQuantityPart.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="labelQuantityService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 307</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>GenerateInvoiceEmployeeForm</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Part Name</value>
+  </data>
+  <data name="Labour.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedServices.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewItemParts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQuantityService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 28</value>
+  </data>
+  <data name="lblExit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMinimise.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1428, 9</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedServices.Name" xml:space="preserve">
+    <value>lblSelectedServices</value>
+  </data>
+  <data name="lblMinimise.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 35</value>
+  </data>
+  <data name="&gt;&gt;SerialNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PartName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Quantity.Name" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="msgSelectPart" xml:space="preserve">
+    <value>Please select a part.</value>
+  </data>
+  <data name="btnShowInvoice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1247, 580</value>
+  </data>
+  <data name="labelService.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>TruckCentreWF.Forms.Common.DraggablePanel, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UnitPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAddService.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewItemServices.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="btnRemovePart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 35</value>
+  </data>
+  <data name="&gt;&gt;labelPart.Name" xml:space="preserve">
+    <value>labelPart</value>
+  </data>
+  <data name="textBoxQuantityPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 76</value>
+  </data>
+  <data name="dataGridViewItemServices.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dataGridViewItemParts.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 23</value>
+  </data>
+  <data name="labelQuantityPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 23</value>
+  </data>
+  <data name="textBoxQuantityService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 337</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Service Name</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePart.Name" xml:space="preserve">
+    <value>btnRemovePart</value>
+  </data>
+  <data name="msgSuccessfullyAdded" xml:space="preserve">
+    <value>Part added successfully.</value>
+  </data>
+  <data name="&gt;&gt;LabourAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Labour</value>
+  </data>
+  <data name="Quantity.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ServiceFee.HeaderText" xml:space="preserve">
+    <value>Service Fee</value>
+  </data>
+  <data name="Labour.HeaderText" xml:space="preserve">
+    <value>Labour</value>
+  </data>
+  <data name="ItemPartPrice.HeaderText" xml:space="preserve">
+    <value>Item Price</value>
+  </data>
+  <data name="msgValidLabourAmount" xml:space="preserve">
+    <value>Please enter a valid labour amount.</value>
+  </data>
+  <data name="lblMinimise.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labelQuantityService.Text" xml:space="preserve">
+    <value>Number of hours:</value>
+  </data>
+  <data name="&gt;&gt;btnAddService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelectedServices.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="btnShowInvoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 35</value>
+  </data>
+  <data name="dataGridViewServices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 200</value>
+  </data>
+  <data name="SerialNumber.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="&gt;&gt;btn.Name" xml:space="preserve">
+    <value>btn</value>
+  </data>
+  <data name="labelService.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="msgSuccessfullyAddedService" xml:space="preserve">
+    <value>Service added successfully.</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewParts.Name" xml:space="preserve">
+    <value>dataGridViewParts</value>
+  </data>
+  <data name="Quantity.HeaderText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="&gt;&gt;btnShowInvoice.Name" xml:space="preserve">
+    <value>btnShowInvoice</value>
+  </data>
+  <data name="lblSelectedServices.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedParts.Name" xml:space="preserve">
+    <value>lblSelectedParts</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Name" xml:space="preserve">
+    <value>lblMinimise</value>
+  </data>
+  <data name="&gt;&gt;btnAddPart.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 304</value>
+  </data>
+  <data name="btnAddPart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedParts.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAddPart.Text" xml:space="preserve">
+    <value>Add Part</value>
+  </data>
+  <data name="msgSelectItemPart" xml:space="preserve">
+    <value>Please select an item part.</value>
+  </data>
+  <data name="labelService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 23</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="btnShowInvoice.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 44</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridViewItemServices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnShowInvoice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewItemParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 200</value>
+  </data>
+  <data name="&gt;&gt;labelPart.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewParts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxQuantityPart.Name" xml:space="preserve">
+    <value>textBoxQuantityPart</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="labelQuantityService.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dataGridViewServices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 330</value>
+  </data>
+  <data name="lblSelectedParts.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="dataGridViewParts.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="labelPart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="btnAddService.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="textBoxQuantityPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 30</value>
+  </data>
+  <data name="&gt;&gt;labelPart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>TruckCentreWF.Forms.DraggableForm, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="labelPart.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="dataGridViewParts.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnShowInvoice.Text" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="UnitPrice.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;labelQuantityPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSelectedParts.Text" xml:space="preserve">
+    <value>Selected parts:</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedServices.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSelectedServices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 23</value>
+  </data>
+  <data name="LabourAmount.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;textBoxQuantityPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewServices.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;btnAddService.Name" xml:space="preserve">
+    <value>btnAddService</value>
+  </data>
+  <data name="LabourAmount.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnRemovePart.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnAddService.Text" xml:space="preserve">
+    <value>Add Service</value>
+  </data>
+  <data name="btnAddPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>502, 116</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>703, 533</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelQuantityService.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="ItemServicePrice.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="msgSelectItemService" xml:space="preserve">
+    <value>Please select an item service.</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedParts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelQuantityService.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewServices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelQuantityPart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn7.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn7</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewItemServices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PartName.Name" xml:space="preserve">
+    <value>PartName</value>
+  </data>
+  <data name="dataGridViewItemServices.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="ItemPartPrice.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="&gt;&gt;labelService.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewItemParts.Name" xml:space="preserve">
+    <value>dataGridViewItemParts</value>
+  </data>
+  <data name="msgErrorGettingItemService" xml:space="preserve">
+    <value>Error getting selected item service.</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedParts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridViewParts.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="dataGridViewItemParts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>759, 70</value>
+  </data>
+  <data name="SerialNumber.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="msgErrorGettingService" xml:space="preserve">
+    <value>Error getting selected service.</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="msgErrorGettingItemPart" xml:space="preserve">
+    <value>Error getting selected item part.</value>
+  </data>
+  <data name="labelService.Text" xml:space="preserve">
+    <value>Choose provided service:</value>
+  </data>
+  <data name="labelPart.Text" xml:space="preserve">
+    <value>Choose used parts: </value>
+  </data>
+  <data name="&gt;&gt;ItemServicePrice.Name" xml:space="preserve">
+    <value>ItemServicePrice</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewServices.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBoxQuantityPart.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelQuantityPart.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewServices.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewParts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQuantityService.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblMinimise.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;textBoxQuantityService.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;textBoxQuantityService.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="ServiceFee.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dataGridViewServices.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnShowInvoice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSelectedServices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="msgSelectService" xml:space="preserve">
+    <value>Please select a service.</value>
+  </data>
+  <data name="&gt;&gt;labelQuantityPart.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="lblExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1451, 9</value>
+  </data>
+  <data name="&gt;&gt;ServiceFee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dataGridViewServices.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Quantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQuantityService.Name" xml:space="preserve">
+    <value>labelQuantityService</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;labelService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Labour.Name" xml:space="preserve">
+    <value>Labour</value>
+  </data>
+  <data name="dataGridViewItemParts.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnShowInvoice.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblExit.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="msgFailedDeletingItemService" xml:space="preserve">
+    <value>Error deleting item service.</value>
+  </data>
+  <data name="labelQuantityService.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="textBoxQuantityService.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="msgFailedAddingService" xml:space="preserve">
+    <value>Error adding service.</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewItemParts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServiceFee.Name" xml:space="preserve">
+    <value>ServiceFee</value>
+  </data>
+  <data name="&gt;&gt;btnRemovePart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Unit Price</value>
+  </data>
+  <data name="LabourAmount.HeaderText" xml:space="preserve">
+    <value>Labour Amount</value>
+  </data>
+  <data name="&gt;&gt;btnAddPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>539, 467</value>
+  </data>
+  <data name="&gt;&gt;btn.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="PartName.HeaderText" xml:space="preserve">
+    <value>Part Name</value>
+  </data>
+  <data name="&gt;&gt;ItemPartPrice.Name" xml:space="preserve">
+    <value>ItemPartPrice</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewItemServices.Name" xml:space="preserve">
+    <value>dataGridViewItemServices</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="labelPart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="msgFailedAdding" xml:space="preserve">
+    <value>Error adding part.</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="btn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Serial Number</value>
+  </data>
+  <data name="ServiceName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Quantity.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>669, 533</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Name" xml:space="preserve">
+    <value>lblExit</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServiceName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ItemPartPrice.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="msgSucessfullyDeletedItemPart" xml:space="preserve">
+    <value>Item part deleted successfully.</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelQuantityPart.Text" xml:space="preserve">
+    <value>Number of units:</value>
+  </data>
+  <data name="dataGridViewItemServices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>759, 330</value>
+  </data>
+  <data name="&gt;&gt;labelService.Name" xml:space="preserve">
+    <value>labelService</value>
+  </data>
+  <data name="&gt;&gt;SerialNumber.Name" xml:space="preserve">
+    <value>SerialNumber</value>
+  </data>
+  <data name="lblExit.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;ItemServicePrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxQuantityService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btn.Text" xml:space="preserve">
+    <value>Remove Service</value>
+  </data>
+  <data name="btnRemovePart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1247, 235</value>
+  </data>
+  <data name="textBoxQuantityService.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Service Fee</value>
+  </data>
+  <data name="ServiceName.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;btn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewItemParts.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelQuantityPart.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="lblSelectedServices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>755, 304</value>
+  </data>
+  <data name="&gt;&gt;UnitPrice.Name" xml:space="preserve">
+    <value>UnitPrice</value>
+  </data>
+  <data name="textBoxQuantityPart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>TruckCentreWF.Forms.Common.DraggablePanel, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="btnAddPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 35</value>
+  </data>
+  <data name="&gt;&gt;LabourAmount.Name" xml:space="preserve">
+    <value>LabourAmount</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Quantity.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ItemPartPrice.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LabourAmount.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ItemServicePrice.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

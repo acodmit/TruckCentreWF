@@ -12871,11 +12871,21 @@
         mNy+ipEu/zj11P7jDcB//Nv/A000NI5MKLeSAAAAAElFTkSuQmCC
 </value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblContentHome.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblContentHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 153</value>
+  </data>
   <data name="lblContentHome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>669, 45</value>
+    <value>727, 46</value>
   </data>
   <data name="lblContentHome.Text" xml:space="preserve">
     <value>Willkommen beim TruckCentre Mitarbeiter.</value>
+  </data>
+  <data name="lblTitleHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 217</value>
   </data>
   <data name="lblTitleHome.Size" type="System.Drawing.Size, System.Drawing">
     <value>641, 35</value>

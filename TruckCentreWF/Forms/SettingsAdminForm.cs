@@ -17,10 +17,13 @@ namespace TruckCentreWF.Forms
     public partial class SettingsAdminForm : Form
     {
         private ResourceManager resourceManager;
-
         public SettingsAdminForm()
         {
             InitializeComponent();
+
+            // Set visibility of comboboxes
+            this.comboBoxLanguage.SelectedIndex = ApplicationService.languageIndex;
+            this.comboBoxTheme.SelectedIndex = ApplicationService.themeIndex;
 
             // Initializing resourceManager
             resourceManager = new ResourceManager("TruckCentreWF.Forms.SettingsAdminForm", typeof(SettingsAdminForm).Assembly);
@@ -72,22 +75,7 @@ namespace TruckCentreWF.Forms
             if (languageChanged || themeChanged)
             {
                 RefreshForm();
-
-                // Display a message about language and/or theme change
-                if (languageChanged && themeChanged)
-                {
-                    MessageBox.Show(resourceManager.GetString("msgLanguageAndThemeChanged"), resourceManager.GetString("lblInformation"), MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else if (languageChanged)
-                {
-                    MessageBox.Show(resourceManager.GetString("msgLanguageChanged"), resourceManager.GetString("lblInformation"), MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else if (themeChanged)
-                {
-                    MessageBox.Show(resourceManager.GetString("msgThemeChanged"), resourceManager.GetString("lblInformation"), MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
             }
-
 
             // Retrieve the new password and repeat password from the TextBox controls
             string newPassword = textBoxPassword.Text;
@@ -123,24 +111,17 @@ namespace TruckCentreWF.Forms
             if (themeChanged || passwordChanged)
             {
                 bool updateResult = await EmployeeService.UpdateEmployee(currentAdmin);
-
-                if (updateResult)
-                {
-                    MessageBox.Show(resourceManager.GetString("msgSuccesfullUpdate"),
-                        resourceManager.GetString("lblSuccess"),
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show(resourceManager.GetString("msgFailedUpdate"),
-                        resourceManager.GetString("lblError"),
-                        MessageBoxButtons.OK,
-                        MessageBoxIcon.Error);
-                }
             }
 
-            if (!languageChanged && !themeChanged && !passwordChanged)
+            if (languageChanged || themeChanged || passwordChanged)
+            {
+                // Display a message about language and/or theme and/or password change
+                MessageBox.Show(resourceManager.GetString("msgChangesSaved"),
+                    resourceManager.GetString("lblInformation"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+            }
+            else
             {
                 MessageBox.Show(resourceManager.GetString("msgNoChanges"),
                     resourceManager.GetString("lblInformation"),

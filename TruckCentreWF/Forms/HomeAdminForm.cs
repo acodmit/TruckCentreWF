@@ -28,7 +28,6 @@ namespace TruckCentreWF.Forms
 
             }
         }
-
         private void SetNavyTheme()
         {
             // Background Colors

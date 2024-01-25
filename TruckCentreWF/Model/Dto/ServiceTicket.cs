@@ -22,7 +22,7 @@ namespace TruckCentreWF.Model.Dto
         }
 
 
-        public ServiceTicket(int idServiceTicket, int idClient, int idEmployee, DateTime entryDate, string details, string status)
+        public ServiceTicket(int idServiceTicket, int idEmployee, int idClient, DateTime entryDate, string details, string status)
         {
             IdServiceTicket = idServiceTicket;
             IdEmployee = idEmployee;

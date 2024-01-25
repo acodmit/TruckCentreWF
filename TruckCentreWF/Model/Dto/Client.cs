@@ -5,6 +5,7 @@ namespace TruckCentreWF.Model.Dto
     public class Client
     {
         public int IdClient { get; set; }
+        public string Name { get; set; }
         public string Email { get; set; }
         public string Address { get; set; }
 
@@ -13,9 +14,10 @@ namespace TruckCentreWF.Model.Dto
             // Default constructor
         }
 
-        public Client(int idClient, string email, string address)
+        public Client(int idClient, string name, string email, string address)
         {
             IdClient = idClient;
+            Name = name;
             Email = email;
             Address = address;
         }

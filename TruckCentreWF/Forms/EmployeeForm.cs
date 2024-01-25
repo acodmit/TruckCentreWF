@@ -19,7 +19,6 @@ namespace TruckCentreWF.Forms
     public partial class EmployeeForm : DraggableForm
     {
         private ResourceManager resourceManager;
-
         public EmployeeForm()
         {   
             InitializeComponent();
@@ -100,9 +99,13 @@ namespace TruckCentreWF.Forms
             this.pnlMain.BackColor = Color.FromArgb(150, 180, 208);
             this.lblTitle.BackColor = Color.FromArgb(150, 180, 208);
             this.btnHome.BackColor = Color.FromArgb(52, 86, 109);
-            this.btnLogOut.BackColor = Color.FromArgb(52, 86, 109);
-            this.btnPartsServices.BackColor = Color.FromArgb(52, 86, 109);
             this.btnTickets.BackColor = Color.FromArgb(52, 86, 109);
+            this.btnParts.BackColor = Color.FromArgb(52, 86, 109);
+            this.btnServices.BackColor = Color.FromArgb(52, 86, 109);
+            this.btnClients.BackColor = Color.FromArgb(52, 86, 109);
+            this.btnVehicles.BackColor = Color.FromArgb(52, 86, 109);
+            this.btnSettings.BackColor = Color.FromArgb(52, 86, 109);
+            this.btnLogOut.BackColor = Color.FromArgb(52, 86, 109);
 
             // Foreground Colors
             this.lblTitle.ForeColor = Color.FromArgb(20, 40, 80);
@@ -110,7 +113,12 @@ namespace TruckCentreWF.Forms
             this.lblExit.ForeColor = Color.FromArgb(20, 40, 80);
             this.btnHome.ForeColor = Color.FromArgb(200, 200, 200);
             this.btnTickets.ForeColor = Color.FromArgb(200, 200, 200);
-            this.btnPartsServices.ForeColor = Color.FromArgb(200, 200, 200);
+            this.btnParts.ForeColor = Color.FromArgb(200, 200, 200);
+            this.btnServices.ForeColor = Color.FromArgb(200, 200, 200);
+            this.btnServices.ForeColor = Color.FromArgb(200, 200, 200);
+            this.btnClients.ForeColor = Color.FromArgb(200, 200, 200);
+            this.btnVehicles.ForeColor = Color.FromArgb(200, 200, 200);
+            this.btnSettings.ForeColor = Color.FromArgb(200, 200, 200);
             this.btnLogOut.ForeColor = Color.FromArgb(200, 200, 200);
         }
 
@@ -144,7 +152,7 @@ namespace TruckCentreWF.Forms
         private void btnHome_Click(object sender, EventArgs e)
         {
             // Set title label to "Home"
-            lblTitle.Text = resourceManager.GetString("lblHome", Thread.CurrentThread.CurrentUICulture);
+            lblTitle.Text = resourceManager.GetString("lblHome");
 
             // Close the currently loaded form in pnlMain
             pnlMain.Controls.Clear();
@@ -159,13 +167,88 @@ namespace TruckCentreWF.Forms
         private void btnTickets_Click(object sender, EventArgs e)
         {
             // Set title label to "Service Tickets"
-            lblTitle.Text = resourceManager.GetString("lblServiceTickets", Thread.CurrentThread.CurrentUICulture);
+            lblTitle.Text = resourceManager.GetString("lblServiceTickets");
 
             // Close the currently loaded form in pnlMain
             pnlMain.Controls.Clear();
 
             // Generate ServiceTicketsEmployeeForm
             ServiceTicketsEmployeeForm childForm = new ServiceTicketsEmployeeForm();
+
+            // Load the child form into the panel
+            LoadChildFormIntoPanel(childForm);
+        }
+
+        private void btnParts_Click(object sender, EventArgs e)
+        {
+            // Set title label to "Parts"
+            lblTitle.Text = resourceManager.GetString("lblParts");
+
+            // Close the currently loaded form in pnlMain
+            pnlMain.Controls.Clear();
+
+            // Generate PartsEmployeeForm
+            PartsEmployeeForm childForm = new PartsEmployeeForm();
+
+            // Load the child form into the panel
+            LoadChildFormIntoPanel(childForm);
+        }
+
+        private void btnServices_Click(object sender, EventArgs e)
+        {
+            // Set title label to "Services"
+            lblTitle.Text = resourceManager.GetString("lblServices");
+
+            // Close the currently loaded form in pnlMain
+            pnlMain.Controls.Clear();
+
+            // Generate ServicesEmployeeForm
+            ServicesEmployeeForm childForm = new ServicesEmployeeForm();
+
+            // Load the child form into the panel
+            LoadChildFormIntoPanel(childForm);
+        }
+
+        private void btnClients_Click(object sender, EventArgs e)
+        {
+            // Set title label to "Clients"
+            lblTitle.Text = resourceManager.GetString("lblClients");
+
+            // Close the currently loaded form in pnlMain
+            pnlMain.Controls.Clear();
+
+            // Generate ClientsEmployeeForm
+            ClientsEmployeeForm childForm = new ClientsEmployeeForm();
+
+            // Load the child form into the panel
+            LoadChildFormIntoPanel(childForm);
+        }
+
+        private void btnVehicles_Click(object sender, EventArgs e)
+        {
+            // Set title label to "Vehicles"
+            lblTitle.Text = resourceManager.GetString("lblVehicles");
+
+            // Close the currently loaded form in pnlMain
+            pnlMain.Controls.Clear();
+
+            // Generate VehiclesEmployeeForm
+            VehiclesEmployeeForm childForm = new VehiclesEmployeeForm();
+
+            // Load the child form into the panel
+            LoadChildFormIntoPanel(childForm);
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            // Set title label to "Settings"
+            lblTitle.Text = resourceManager.GetString("lblSettings");
+
+            // Close the currently loaded form in pnlMain
+            pnlMain.Controls.Clear();
+
+            // Generate SettingsEmployeeForm
+            SettingsEmployeeForm childForm = new SettingsEmployeeForm();
 
             // Load the child form into the panel
             LoadChildFormIntoPanel(childForm);

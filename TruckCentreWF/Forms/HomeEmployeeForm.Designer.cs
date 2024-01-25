@@ -40,8 +40,9 @@ namespace TruckCentreWF.Forms
             // 
             // pnlMainHome
             // 
-            resources.ApplyResources(this.pnlMainHome, "pnlMainHome");
             this.pnlMainHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(227)))), ((int)(((byte)(222)))));
+            this.pnlMainHome.BackgroundImage = global::TruckCentreWF.Properties.Resources.background_image;
+            resources.ApplyResources(this.pnlMainHome, "pnlMainHome");
             this.pnlMainHome.Controls.Add(this.lblContentHome);
             this.pnlMainHome.Controls.Add(this.lblTitleHome);
             this.pnlMainHome.Name = "pnlMainHome";

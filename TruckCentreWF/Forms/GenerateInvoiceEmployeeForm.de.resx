@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SerialNumber.HeaderText" xml:space="preserve">
+    <value>Seriennummer</value>
+  </data>
+  <data name="PartName.HeaderText" xml:space="preserve">
+    <value>Teilname</value>
+  </data>
+  <data name="UnitPrice.HeaderText" xml:space="preserve">
+    <value>Stückpreis</value>
+  </data>
+  <data name="ServiceName.HeaderText" xml:space="preserve">
+    <value>Dienstname</value>
+  </data>
+  <data name="ServiceFee.HeaderText" xml:space="preserve">
+    <value>Dienstgebühr</value>
+  </data>
+  <data name="Labour.HeaderText" xml:space="preserve">
+    <value>Arbeit</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnAddPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 116</value>
+  </data>
+  <data name="btnAddPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 35</value>
+  </data>
+  <data name="btnAddPart.Text" xml:space="preserve">
+    <value>Teil hinzufügen</value>
+  </data>
+  <data name="btnAddService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 56</value>
+  </data>
+  <data name="btnAddService.Text" xml:space="preserve">
+    <value>Dienstleistung hinzufügen</value>
+  </data>
+  <data name="btnShowInvoice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 35</value>
+  </data>
+  <data name="btnShowInvoice.Text" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="labelPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>232, 23</value>
+  </data>
+  <data name="labelPart.Text" xml:space="preserve">
+    <value>Verwendete Teile auswählen: </value>
+  </data>
+  <data name="labelService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 23</value>
+  </data>
+  <data name="labelService.Text" xml:space="preserve">
+    <value>Erbrachte Dienstleistung auswählen:</value>
+  </data>
+  <data name="labelQuantityPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 50</value>
+  </data>
+  <data name="labelQuantityPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="labelQuantityPart.Text" xml:space="preserve">
+    <value>Anzahl der Einheiten:</value>
+  </data>
+  <data name="labelQuantityService.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 311</value>
+  </data>
+  <data name="labelQuantityService.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 23</value>
+  </data>
+  <data name="labelQuantityService.Text" xml:space="preserve">
+    <value>Anzahl der Einheiten:</value>
+  </data>
+  <data name="btnRemovePart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1233, 235</value>
+  </data>
+  <data name="btnRemovePart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 35</value>
+  </data>
+  <data name="btnRemovePart.Text" xml:space="preserve">
+    <value>Teil entfernen</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Dienstname</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Dienstgebühr</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Arbeit</value>
+  </data>
+  <data name="LabourAmount.HeaderText" xml:space="preserve">
+    <value>Arbeit Menge</value>
+  </data>
+  <data name="ItemServicePrice.HeaderText" xml:space="preserve">
+    <value>Dienstpreis</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Seriennnummer</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn6.HeaderText" xml:space="preserve">
+    <value>Teilname</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn7.HeaderText" xml:space="preserve">
+    <value>Stückpreis</value>
+  </data>
+  <data name="Quantity.HeaderText" xml:space="preserve">
+    <value>Menge</value>
+  </data>
+  <data name="ItemPartPrice.HeaderText" xml:space="preserve">
+    <value>Teilpreis</value>
+  </data>
+  <data name="lblSelectedParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 23</value>
+  </data>
+  <data name="lblSelectedParts.Text" xml:space="preserve">
+    <value>Ausgewählte Teile:</value>
+  </data>
+  <data name="lblSelectedServices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 23</value>
+  </data>
+  <data name="lblSelectedServices.Text" xml:space="preserve">
+    <value>Ausgewählte Dienstleistungen:</value>
+  </data>
+  <data name="btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>538, 445</value>
+  </data>
+  <data name="btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 56</value>
+  </data>
+  <data name="btn.Text" xml:space="preserve">
+    <value>Dienstleistung entfernen</value>
+  </data>
+  <data name="msgErrorGettingItemPart" xml:space="preserve">
+    <value>Fehler beim Abrufen des ausgewählten Artikelteils.</value>
+  </data>
+  <data name="msgErrorGettingItemService" xml:space="preserve">
+    <value>Fehler beim Abrufen des ausgewählten Artikel-Dienstes.</value>
+  </data>
+  <data name="msgErrorGettingPart" xml:space="preserve">
+    <value>Fehler beim Abrufen des ausgewählten Teils.</value>
+  </data>
+  <data name="msgErrorGettingService" xml:space="preserve">
+    <value>Fehler beim Abrufen des ausgewählten Dienstes.</value>
+  </data>
+  <data name="msgFailedAdding" xml:space="preserve">
+    <value>Fehler beim Hinzufügen des Teils.</value>
+  </data>
+  <data name="msgFailedAddingService" xml:space="preserve">
+    <value>Fehler beim Hinzufügen des Dienstes.</value>
+  </data>
+  <data name="msgFailedDeletingItemPart" xml:space="preserve">
+    <value>Fehler beim Löschen des Artikelteils.</value>
+  </data>
+  <data name="msgFailedDeletingItemService" xml:space="preserve">
+    <value>Fehler beim Löschen des Artikel-Dienstes.</value>
+  </data>
+  <data name="msgNoTicket" xml:space="preserve">
+    <value>Kein Bearbeitungsticket verfügbar.</value>
+  </data>
+  <data name="msgSelectItemPart" xml:space="preserve">
+    <value>Bitte wählen Sie einen Artikelteil aus.</value>
+  </data>
+  <data name="msgSelectItemService" xml:space="preserve">
+    <value>Bitte wählen Sie einen Artikel-Dienst aus.</value>
+  </data>
+  <data name="msgSelectPart" xml:space="preserve">
+    <value>Bitte wählen Sie ein Teil aus.</value>
+  </data>
+  <data name="msgSelectService" xml:space="preserve">
+    <value>Bitte wählen Sie einen Dienst aus.</value>
+  </data>
+  <data name="msgSuccessfullyAdded" xml:space="preserve">
+    <value>Teil erfolgreich hinzugefügt.</value>
+  </data>
+  <data name="msgSuccessfullyAddedItemService" xml:space="preserve">
+    <value>Artikel-Dienst erfolgreich gelöscht.</value>
+  </data>
+  <data name="msgSuccessfullyAddedService" xml:space="preserve">
+    <value>Dienst erfolgreich hinzugefügt.</value>
+  </data>
+  <data name="msgSucessfullyDeletedItemPart" xml:space="preserve">
+    <value>Artikelteil erfolgreich gelöscht.</value>
+  </data>
+  <data name="msgValidLabourAmount" xml:space="preserve">
+    <value>Bitte geben Sie einen gültigen Arbeitsbetrag ein.</value>
+  </data>
+  <data name="msgValidQuantity" xml:space="preserve">
+    <value>Bitte geben Sie eine gültige Menge ein.</value>
+  </data>
+</root>

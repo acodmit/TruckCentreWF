@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>600, 780</value>
+  </data>
+  <data name="&gt;&gt;UnitPrice.Name" xml:space="preserve">
+    <value>UnitPrice</value>
+  </data>
+  <data name="lblMinimise.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 23</value>
+  </data>
+  <data name="dataGridServices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 454</value>
+  </data>
+  <data name="lblTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 13.8pt, style=Bold</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="UnitPrice.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblGrandTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="IdService.HeaderText" xml:space="preserve">
+    <value>IdService</value>
+  </data>
+  <data name="ServiceName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dataGridServices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ServiceName.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="PartName.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 23</value>
+  </data>
+  <data name="lblGrandTotal.Text" xml:space="preserve">
+    <value>Total amount:</value>
+  </data>
+  <data name="lblExit.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblMinimise.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Name" xml:space="preserve">
+    <value>lblMinimise</value>
+  </data>
+  <data name="&gt;&gt;PartName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblInvoiceDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 23</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrandTotal.Name" xml:space="preserve">
+    <value>lblGrandTotal</value>
+  </data>
+  <data name="ServiceFee.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;Labour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SerialNumber.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblInvoiceDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 81</value>
+  </data>
+  <data name="&gt;&gt;lblInvoiceDetails.Name" xml:space="preserve">
+    <value>lblInvoiceDetails</value>
+  </data>
+  <data name="&gt;&gt;lblParts.Name" xml:space="preserve">
+    <value>lblParts</value>
+  </data>
+  <data name="UnitPrice.HeaderText" xml:space="preserve">
+    <value>UnitPrice</value>
+  </data>
+  <data name="&gt;&gt;lblServices.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ItemServicePrice.HeaderText" xml:space="preserve">
+    <value>ItemServicePrice</value>
+  </data>
+  <data name="dataGridViewParts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 151</value>
+  </data>
+  <data name="dataGridViewParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 240</value>
+  </data>
+  <data name="&gt;&gt;dataGridServices.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 31</value>
+  </data>
+  <data name="lblServices.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ItemServicePrice.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewParts.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblTitle.Text" xml:space="preserve">
+    <value>Invoice details</value>
+  </data>
+  <data name="&gt;&gt;LabourAmount.Name" xml:space="preserve">
+    <value>LabourAmount</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ShowInvoiceEmployeeForm</value>
+  </data>
+  <data name="Labour.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="Quantity.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;Labour.Name" xml:space="preserve">
+    <value>Labour</value>
+  </data>
+  <data name="&gt;&gt;lblServices.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblInvoiceDetails.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblExit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMinimise.Location" type="System.Drawing.Point, System.Drawing">
+    <value>545, 13</value>
+  </data>
+  <data name="lblGrandTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 50</value>
+  </data>
+  <data name="&gt;&gt;SerialNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Quantity.Name" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="&gt;&gt;dataGridServices.Name" xml:space="preserve">
+    <value>dataGridServices</value>
+  </data>
+  <data name="&gt;&gt;ItemServicePrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UnitPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IdService.Name" xml:space="preserve">
+    <value>IdService</value>
+  </data>
+  <data name="dataGridViewParts.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="IdService.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblInvoiceDetails.Text" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="&gt;&gt;PartName.Name" xml:space="preserve">
+    <value>PartName</value>
+  </data>
+  <data name="&gt;&gt;LabourAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Quantity.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ServiceFee.HeaderText" xml:space="preserve">
+    <value>ServiceFee</value>
+  </data>
+  <data name="Labour.HeaderText" xml:space="preserve">
+    <value>Labour</value>
+  </data>
+  <data name="ItemPartPrice.HeaderText" xml:space="preserve">
+    <value>ItemPrice</value>
+  </data>
+  <data name="ItemPartPrice.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="IdService.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="lblMinimise.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="lblInvoiceDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="lblMinimise.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewParts.Name" xml:space="preserve">
+    <value>dataGridViewParts</value>
+  </data>
+  <data name="Quantity.HeaderText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ShowInvoiceEmployeeForm</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblServices.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblParts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 23</value>
+  </data>
+  <data name="&gt;&gt;lblInvoiceDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;lblParts.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;IdService.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LabourAmount.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewParts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblInvoiceDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblServices.Name" xml:space="preserve">
+    <value>lblServices</value>
+  </data>
+  <data name="&gt;&gt;SerialNumber.Name" xml:space="preserve">
+    <value>SerialNumber</value>
+  </data>
+  <data name="lblParts.Text" xml:space="preserve">
+    <value>Parts included on invoice:</value>
+  </data>
+  <data name="dataGridViewParts.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>TruckCentreWF.Forms.DraggableForm, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="dataGridViewParts.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblParts.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PartName.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Quantity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServiceName.Name" xml:space="preserve">
+    <value>ServiceName</value>
+  </data>
+  <data name="lblTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrandTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LabourAmount.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ItemServicePrice.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblParts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 13</value>
+  </data>
+  <data name="lblTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblParts.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblParts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 115</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblServices.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;lblGrandTotal.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblParts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SerialNumber.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ItemServicePrice.Name" xml:space="preserve">
+    <value>ItemServicePrice</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewParts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMinimise.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ServiceName.HeaderText" xml:space="preserve">
+    <value>ServiceName</value>
+  </data>
+  <data name="ServiceFee.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="dataGridServices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>490, 240</value>
+  </data>
+  <data name="PartName.HeaderText" xml:space="preserve">
+    <value>PartName</value>
+  </data>
+  <data name="Labour.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ServiceFee.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
+    <value>lblTitle</value>
+  </data>
+  <data name="lblGrandTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
+  <data name="&gt;&gt;lblExit.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblInvoiceDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblServices.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 23</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="dataGridServices.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="LabourAmount.HeaderText" xml:space="preserve">
+    <value>LabourAmount</value>
+  </data>
+  <data name="dataGridServices.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="lblGrandTotal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ItemPartPrice.Name" xml:space="preserve">
+    <value>ItemPartPrice</value>
+  </data>
+  <data name="lblServices.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 419</value>
+  </data>
+  <data name="lblGrandTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 719</value>
+  </data>
+  <data name="&gt;&gt;ItemPartPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ServiceFee.Name" xml:space="preserve">
+    <value>ServiceFee</value>
+  </data>
+  <data name="UnitPrice.Width" type="System.Int32, mscorlib">
+    <value>125</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Name" xml:space="preserve">
+    <value>lblExit</value>
+  </data>
+  <data name="lblInvoiceDetails.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ServiceName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ItemPartPrice.MinimumWidth" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblParts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;lblGrandTotal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblServices.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblExit.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;dataGridServices.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dataGridServices.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SerialNumber.HeaderText" xml:space="preserve">
+    <value>SerialNumber</value>
+  </data>
+  <data name="lblServices.Text" xml:space="preserve">
+    <value>Services included on invoice:</value>
+  </data>
+  <data name="Quantity.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ServiceFee.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Labour.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ItemServicePrice.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LabourAmount.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="IdService.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PartName.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ServiceName.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ItemPartPrice.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UnitPrice.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SerialNumber.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEntryDate" xml:space="preserve">
+    <value>Entry date: </value>
+  </data>
+  <data name="lblNoDetails" xml:space="preserve">
+    <value>No invoice details available.</value>
+  </data>
+  <data name="lblTotalAmount" xml:space="preserve">
+    <value>Total amount: </value>
+  </data>
+</root>

@@ -56,7 +56,6 @@ namespace TruckCentreWF.Forms
             foreach (var employee in employees)
             {
                 dataGridView1.Rows.Add(
-                    employee.IdEmployee,
                     employee.Username,
                     employee.IsAdmin,
                     employee.FirstName,

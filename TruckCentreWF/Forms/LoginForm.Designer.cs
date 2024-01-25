@@ -1,4 +1,6 @@
-﻿namespace TruckCentreWF.Forms
+﻿using System.Windows.Forms;
+
+namespace TruckCentreWF.Forms
 {
     partial class LoginForm
     {
@@ -92,16 +94,17 @@
             // languageComboBox
             // 
             this.languageComboBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(227)))), ((int)(((byte)(222)))));
-            this.languageComboBox.DisplayMember = "English";
             this.languageComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.languageComboBox.FormattingEnabled = true;
             this.languageComboBox.Items.AddRange(new object[] {
             resources.GetString("languageComboBox.Items"),
             resources.GetString("languageComboBox.Items1"),
             resources.GetString("languageComboBox.Items2")});
             resources.ApplyResources(this.languageComboBox, "languageComboBox");
             this.languageComboBox.Name = "languageComboBox";
-            this.languageComboBox.ValueMember = "English";
+            this.languageComboBox.SelectedIndex = Service.ApplicationService.languageIndex;
             this.languageComboBox.SelectedIndexChanged += new System.EventHandler(this.languageComboBox_SelectedIndexChanged);
+
             // 
             // label5
             // 

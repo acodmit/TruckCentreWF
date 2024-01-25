@@ -32,6 +32,7 @@ namespace TruckCentreWF.Forms
             if (ApplicationService.CurrEmployee.Theme == 1)
             {
                 SetNavyTheme();
+                ApplicationService.themeIndex = 1;
             }
             else
             {
@@ -201,6 +202,5 @@ namespace TruckCentreWF.Forms
             LoginForm loginForm = new LoginForm();
             loginForm.Show();
         }
-
     }
 }

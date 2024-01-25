@@ -36,9 +36,11 @@
             this.lblExit = new System.Windows.Forms.Label();
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.btnSettings = new System.Windows.Forms.Button();
-            this.btnClientsVehicles = new System.Windows.Forms.Button();
+            this.btnVehicles = new System.Windows.Forms.Button();
+            this.btnClients = new System.Windows.Forms.Button();
+            this.btnServices = new System.Windows.Forms.Button();
             this.btnLogOut = new System.Windows.Forms.Button();
-            this.btnPartsServices = new System.Windows.Forms.Button();
+            this.btnParts = new System.Windows.Forms.Button();
             this.btnTickets = new System.Windows.Forms.Button();
             this.btnHome = new System.Windows.Forms.Button();
             this.pnlLogo = new TruckCentreWF.Forms.Common.TransparentPanel();
@@ -53,11 +55,11 @@
             // 
             // pnlToolbar
             // 
+            resources.ApplyResources(this.pnlToolbar, "pnlToolbar");
             this.pnlToolbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(227)))), ((int)(((byte)(222)))));
             this.pnlToolbar.Controls.Add(this.lblTitle);
             this.pnlToolbar.Controls.Add(this.lblMinimise);
             this.pnlToolbar.Controls.Add(this.lblExit);
-            resources.ApplyResources(this.pnlToolbar, "pnlToolbar");
             this.pnlToolbar.Name = "pnlToolbar";
             // 
             // lblTitle
@@ -79,58 +81,83 @@
             // 
             // pnlMenu
             // 
+            resources.ApplyResources(this.pnlMenu, "pnlMenu");
             this.pnlMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
             this.pnlMenu.Controls.Add(this.btnSettings);
-            this.pnlMenu.Controls.Add(this.btnClientsVehicles);
+            this.pnlMenu.Controls.Add(this.btnVehicles);
+            this.pnlMenu.Controls.Add(this.btnClients);
+            this.pnlMenu.Controls.Add(this.btnServices);
             this.pnlMenu.Controls.Add(this.btnLogOut);
-            this.pnlMenu.Controls.Add(this.btnPartsServices);
+            this.pnlMenu.Controls.Add(this.btnParts);
             this.pnlMenu.Controls.Add(this.btnTickets);
             this.pnlMenu.Controls.Add(this.btnHome);
             this.pnlMenu.Controls.Add(this.pnlLogo);
-            resources.ApplyResources(this.pnlMenu, "pnlMenu");
             this.pnlMenu.Name = "pnlMenu";
             // 
             // btnSettings
             // 
-            this.btnSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
             resources.ApplyResources(this.btnSettings, "btnSettings");
+            this.btnSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
             this.btnSettings.FlatAppearance.BorderSize = 0;
             this.btnSettings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnSettings.Name = "btnSettings";
             this.btnSettings.UseVisualStyleBackColor = false;
+            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
             // 
-            // btnClientsVehicles
+            // btnVehicles
             // 
-            this.btnClientsVehicles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
-            resources.ApplyResources(this.btnClientsVehicles, "btnClientsVehicles");
-            this.btnClientsVehicles.FlatAppearance.BorderSize = 0;
-            this.btnClientsVehicles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnClientsVehicles.Name = "btnClientsVehicles";
-            this.btnClientsVehicles.UseVisualStyleBackColor = false;
+            resources.ApplyResources(this.btnVehicles, "btnVehicles");
+            this.btnVehicles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
+            this.btnVehicles.FlatAppearance.BorderSize = 0;
+            this.btnVehicles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnVehicles.Name = "btnVehicles";
+            this.btnVehicles.UseVisualStyleBackColor = false;
+            this.btnVehicles.Click += new System.EventHandler(this.btnVehicles_Click);
+            // 
+            // btnClients
+            // 
+            resources.ApplyResources(this.btnClients, "btnClients");
+            this.btnClients.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
+            this.btnClients.FlatAppearance.BorderSize = 0;
+            this.btnClients.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnClients.Name = "btnClients";
+            this.btnClients.UseVisualStyleBackColor = false;
+            this.btnClients.Click += new System.EventHandler(this.btnClients_Click);
+            // 
+            // btnServices
+            // 
+            resources.ApplyResources(this.btnServices, "btnServices");
+            this.btnServices.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
+            this.btnServices.FlatAppearance.BorderSize = 0;
+            this.btnServices.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnServices.Name = "btnServices";
+            this.btnServices.UseVisualStyleBackColor = false;
+            this.btnServices.Click += new System.EventHandler(this.btnServices_Click);
             // 
             // btnLogOut
             // 
-            this.btnLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
             resources.ApplyResources(this.btnLogOut, "btnLogOut");
+            this.btnLogOut.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
             this.btnLogOut.FlatAppearance.BorderSize = 0;
             this.btnLogOut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.UseVisualStyleBackColor = false;
             this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
-            // btnPartsServices
+            // btnParts
             // 
-            this.btnPartsServices.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
-            resources.ApplyResources(this.btnPartsServices, "btnPartsServices");
-            this.btnPartsServices.FlatAppearance.BorderSize = 0;
-            this.btnPartsServices.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnPartsServices.Name = "btnPartsServices";
-            this.btnPartsServices.UseVisualStyleBackColor = false;
+            resources.ApplyResources(this.btnParts, "btnParts");
+            this.btnParts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
+            this.btnParts.FlatAppearance.BorderSize = 0;
+            this.btnParts.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnParts.Name = "btnParts";
+            this.btnParts.UseVisualStyleBackColor = false;
+            this.btnParts.Click += new System.EventHandler(this.btnParts_Click);
             // 
             // btnTickets
             // 
-            this.btnTickets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
             resources.ApplyResources(this.btnTickets, "btnTickets");
+            this.btnTickets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
             this.btnTickets.FlatAppearance.BorderSize = 0;
             this.btnTickets.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnTickets.Name = "btnTickets";
@@ -139,8 +166,8 @@
             // 
             // btnHome
             // 
-            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
             resources.ApplyResources(this.btnHome, "btnHome");
+            this.btnHome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(107)))), ((int)(((byte)(144)))), ((int)(((byte)(128)))));
             this.btnHome.FlatAppearance.BorderSize = 0;
             this.btnHome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnHome.Name = "btnHome";
@@ -149,9 +176,9 @@
             // 
             // pnlLogo
             // 
+            resources.ApplyResources(this.pnlLogo, "pnlLogo");
             this.pnlLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(90)))), ((int)(((byte)(130)))), ((int)(((byte)(115)))));
             this.pnlLogo.BackgroundImage = global::TruckCentreWF.Properties.Resources.truck;
-            resources.ApplyResources(this.pnlLogo, "pnlLogo");
             this.pnlLogo.Name = "pnlLogo";
             this.pnlLogo.Opacity = 0.6F;
             // 
@@ -178,14 +205,16 @@
         private System.Windows.Forms.Button btnHome;
         private TruckCentreWF.Forms.Common.TransparentPanel pnlLogo;
         private System.Windows.Forms.Button btnLogOut;
-        private System.Windows.Forms.Button btnPartsServices;
+        private System.Windows.Forms.Button btnParts;
         private System.Windows.Forms.Button btnTickets;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblMinimise;
         private System.Windows.Forms.Label lblExit;
         private Common.DraggablePanel pnlToolbar;
         private System.Windows.Forms.Panel pnlMain;
-        private System.Windows.Forms.Button btnClientsVehicles;
+        private System.Windows.Forms.Button btnServices;
+        private System.Windows.Forms.Button btnClients;
+        private System.Windows.Forms.Button btnVehicles;
         private System.Windows.Forms.Button btnSettings;
     }
 }

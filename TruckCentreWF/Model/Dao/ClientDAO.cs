@@ -21,8 +21,9 @@ namespace TruckCentreWF.Model.Dao
         {
             return new Client(
                 reader.GetInt32(0),          // IdClient
-                reader.GetString(1),         // Email
-                reader.GetString(2)         // Address
+                reader.GetString(1),         // Name
+                reader.GetString(2),         // Email
+                reader.GetString(3)         // Address
             );
         }
 
@@ -47,9 +48,10 @@ namespace TruckCentreWF.Model.Dao
         // Compose a SQL command to insert a new client
         protected override MySqlCommand ComposeInsertCommand(Client client, MySqlConnection conn)
         {
-            string query = @"INSERT INTO client (Email, Address) 
-                             VALUES (@Email, @Address)";
+            string query = @"INSERT INTO client (Name, Email, Address) 
+                             VALUES (@Name, @Email, @Address)";
             MySqlCommand command = new MySqlCommand(query, conn);
+            command.Parameters.AddWithValue("@Name", client.Name);
             command.Parameters.AddWithValue("@Email", client.Email);
             command.Parameters.AddWithValue("@Address", client.Address);
             return command;
@@ -59,10 +61,11 @@ namespace TruckCentreWF.Model.Dao
         protected override MySqlCommand ComposeUpdateCommand(Client client, MySqlConnection conn)
         {
             string query = @"UPDATE client 
-                             SET Email=@Email, Address=@Address
+                             SET Name=@Name, Email=@Email, Address=@Address
                              WHERE IdClient=@IdClient";
             MySqlCommand command = new MySqlCommand(query, conn);
             command.Parameters.AddWithValue("@IdClient", client.IdClient);
+            command.Parameters.AddWithValue("@Name", client.Name);
             command.Parameters.AddWithValue("@Email", client.Email);
             command.Parameters.AddWithValue("@Address", client.Address);
             return command;

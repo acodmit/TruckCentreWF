@@ -117,211 +117,207 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelTotalEmployees.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelTotalEmployees.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;panelInfo.Name" xml:space="preserve">
+  <data name="&gt;&gt;labelTotalEmployees.Parent" xml:space="preserve">
     <value>panelInfo</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>750, 350</value>
-  </data>
-  <data name="labelActiveTickets.Text" xml:space="preserve">
-    <value>Active Tickets: Loading...</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;labelTotalEmployees.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelActiveTickets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 28</value>
-  </data>
-  <data name="labelTotalVehicles.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 150</value>
-  </data>
-  <data name="&gt;&gt;panelInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelActiveTickets.Parent" xml:space="preserve">
-    <value>panelInfo</value>
-  </data>
-  <data name="labelFinishedTickets.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 28</value>
-  </data>
-  <data name="labelTotalVehicles.Text" xml:space="preserve">
-    <value>Total Vehicles: Loading...</value>
-  </data>
-  <data name="labelFinishedTickets.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Admin Dashboard</value>
-  </data>
-  <data name="&gt;&gt;labelFinishedTickets.Name" xml:space="preserve">
-    <value>labelFinishedTickets</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.Name" xml:space="preserve">
-    <value>labelTitle</value>
-  </data>
-  <data name="&gt;&gt;labelFinishedTickets.Parent" xml:space="preserve">
-    <value>panelInfo</value>
-  </data>
-  <data name="labelActiveTickets.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>InfoAdminForm</value>
-  </data>
-  <data name="labelFinishedTickets.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="panelInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="labelFinishedTickets.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 90</value>
-  </data>
-  <data name="&gt;&gt;labelTotalEmployees.Name" xml:space="preserve">
-    <value>labelTotalEmployees</value>
-  </data>
-  <data name="labelTotalEmployees.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="labelTotalEmployees.Text" xml:space="preserve">
-    <value>Total Employees: Loading...</value>
-  </data>
-  <data name="&gt;&gt;labelTotalVehicles.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="labelActiveTickets.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 60</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
   </data>
   <data name="&gt;&gt;panelInfo.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;labelFinishedTickets.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelActiveTickets.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="labelTitle.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelTotalVehicles.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 28</value>
-  </data>
-  <data name="labelTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>386, 37</value>
-  </data>
-  <data name="&gt;&gt;labelFinishedTickets.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelTitle.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 16pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;labelTitle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="panelInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>650, 270</value>
-  </data>
-  <data name="&gt;&gt;labelActiveTickets.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;labelTotalVehicles.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelInfo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelTotalVehicles.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="labelTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="labelTitle.Text" xml:space="preserve">
-    <value>Current system information: </value>
-  </data>
-  <data name="&gt;&gt;labelTotalVehicles.Parent" xml:space="preserve">
-    <value>panelInfo</value>
-  </data>
-  <data name="labelFinishedTickets.Text" xml:space="preserve">
-    <value>Finished Tickets: Loading...</value>
-  </data>
-  <data name="labelTotalVehicles.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 12pt</value>
-  </data>
-  <data name="&gt;&gt;labelTotalEmployees.Parent" xml:space="preserve">
-    <value>panelInfo</value>
-  </data>
   <data name="&gt;&gt;labelActiveTickets.Name" xml:space="preserve">
     <value>labelActiveTickets</value>
-  </data>
-  <data name="labelActiveTickets.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="panelInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 43</value>
-  </data>
-  <data name="labelTotalEmployees.Size" type="System.Drawing.Size, System.Drawing">
-    <value>245, 28</value>
-  </data>
-  <data name="labelTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 10</value>
-  </data>
-  <data name="labelFinishedTickets.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="&gt;&gt;labelTitle.Parent" xml:space="preserve">
     <value>panelInfo</value>
   </data>
-  <data name="&gt;&gt;labelActiveTickets.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;labelTotalEmployees.Name" xml:space="preserve">
+    <value>labelTotalEmployees</value>
   </data>
-  <data name="&gt;&gt;labelTotalEmployees.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelActiveTickets.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="labelTotalVehicles.AutoSize" type="System.Boolean, mscorlib">
+  <data name="panelInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelFinishedTickets.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labelTotalEmployees.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;labelTotalVehicles.Name" xml:space="preserve">
-    <value>labelTotalVehicles</value>
+  <data name="&gt;&gt;labelTotalEmployees.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelTotalVehicles" xml:space="preserve">
+    <value>Our fleet includes {0} vehicles.</value>
   </data>
   <data name="labelTotalEmployees.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 120</value>
   </data>
-<data name="labelActiveTickets" xml:space="preserve">
+  <data name="labelTotalVehicles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 150</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Admin Dashboard</value>
+  </data>
+  <data name="labelTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelActiveTickets" xml:space="preserve">
     <value>Currently, there are {0} active service tickets in progress.</value>
-</data>
-<data name="labelFinishedTickets" xml:space="preserve">
-    <value>{0} service tickets have been successfully completed.</value>
-</data>
-<data name="labelTotalEmployees" xml:space="preserve">
+  </data>
+  <data name="&gt;&gt;labelFinishedTickets.Parent" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelActiveTickets.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labelTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 37</value>
+  </data>
+  <data name="&gt;&gt;labelTotalEmployees.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFinishedTickets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.Name" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTotalEmployees" xml:space="preserve">
     <value>Our dedicated team consists of {0} employees.</value>
-</data>
-<data name="labelTotalVehicles" xml:space="preserve">
-    <value>Our fleet includes {0} vehicles.</value>
-</data>
-
+  </data>
+  <data name="&gt;&gt;labelTotalVehicles.Name" xml:space="preserve">
+    <value>labelTotalVehicles</value>
+  </data>
+  <data name="labelTotalVehicles.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labelTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 10</value>
+  </data>
+  <data name="labelFinishedTickets" xml:space="preserve">
+    <value>{0} service tickets have been successfully completed.</value>
+  </data>
+  <data name="labelTotalEmployees.Text" xml:space="preserve">
+    <value>Total Employees: Loading...</value>
+  </data>
+  <data name="panelInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>650, 270</value>
+  </data>
+  <data name="panelInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 43</value>
+  </data>
+  <data name="&gt;&gt;labelActiveTickets.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelTotalVehicles.Text" xml:space="preserve">
+    <value>Total Vehicles: Loading...</value>
+  </data>
+  <data name="&gt;&gt;labelActiveTickets.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTotalVehicles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 28</value>
+  </data>
+  <data name="labelActiveTickets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 28</value>
+  </data>
+  <data name="&gt;&gt;labelActiveTickets.Parent" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="&gt;&gt;labelTotalVehicles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>750, 350</value>
+  </data>
+  <data name="labelFinishedTickets.Text" xml:space="preserve">
+    <value>Finished Tickets: Loading...</value>
+  </data>
+  <data name="labelFinishedTickets.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="labelTotalEmployees.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt</value>
+  </data>
+  <data name="labelTotalEmployees.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="labelTotalVehicles.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelActiveTickets.Text" xml:space="preserve">
+    <value>Active Tickets: Loading...</value>
+  </data>
+  <data name="labelFinishedTickets.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTotalVehicles.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTotalEmployees.Size" type="System.Drawing.Size, System.Drawing">
+    <value>245, 28</value>
+  </data>
+  <data name="&gt;&gt;labelTotalVehicles.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>InfoAdminForm</value>
+  </data>
+  <data name="&gt;&gt;labelFinishedTickets.Name" xml:space="preserve">
+    <value>labelFinishedTickets</value>
+  </data>
+  <data name="labelFinishedTickets.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 28</value>
+  </data>
+  <data name="labelTitle.Text" xml:space="preserve">
+    <value>Current system information: </value>
+  </data>
+  <data name="&gt;&gt;labelFinishedTickets.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.Name" xml:space="preserve">
+    <value>labelTitle</value>
+  </data>
+  <data name="labelFinishedTickets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 90</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;panelInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 16pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;labelTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelActiveTickets.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;labelTotalVehicles.Parent" xml:space="preserve">
+    <value>panelInfo</value>
+  </data>
+  <data name="labelActiveTickets.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 60</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>sr-Latn</value>
   </metadata>
 </root>

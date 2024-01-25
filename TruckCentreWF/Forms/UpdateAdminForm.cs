@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,10 +18,13 @@ namespace TruckCentreWF.Forms
     partial class UpdateAdminForm : DraggableForm
     {
         private int _idEmployeeToUpdate = -1;
-
+        private ResourceManager resourceManager;
         public UpdateAdminForm(Employee employeeToUpdate)
         {
             InitializeComponent();
+
+            // Initializing resourceManager
+            resourceManager = new ResourceManager("TruckCentreWF.Forms.UpdateAdminForm", typeof(UpdateAdminForm).Assembly);
 
             // Populate the form fields with the values from the existing Employee object
             _idEmployeeToUpdate = employeeToUpdate.IdEmployee;

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,12 +18,53 @@ namespace TruckCentreWF.Forms
     {
         private List<Model.Dto.Client> clients;
         private List<Vehicle> vehicles;
+        private ResourceManager resourceManager;
 
         public AddServiceTicketEmployeeForm()
         {
             InitializeComponent();
+
+            // Initializing resourceManager
+            resourceManager = new ResourceManager("TruckCentreWF.Forms.AddServiceTicketEmployeeForm", typeof(AddServiceTicketEmployeeForm).Assembly);
+
             // Load data to part and service grids
             LoadData();
+            // Set the theme based on the Employee's theme value
+            if (ApplicationService.CurrEmployee.Theme == 1)
+            {
+                SetNavyTheme();
+            }
+            else
+            {
+                // Leave default green theme
+            }
+        }
+
+        // Method to set navy style colors
+        private void SetNavyTheme()
+        {
+            // Form Background Color
+            this.BackColor = Color.FromArgb(234, 244, 244);
+
+            // Background Colors
+            this.dataGridViewClients.BackgroundColor = Color.FromArgb(150, 180, 208);
+            this.dataGridViewVehicles.BackgroundColor = Color.FromArgb(150, 180, 208);
+
+            // Foreground Colors
+            foreach (DataGridViewColumn column in dataGridViewClients.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(20, 40, 80);
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(20, 40, 80);
+            }
+            foreach (DataGridViewColumn column in dataGridViewVehicles.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(20, 40, 80);
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(20, 40, 80);
+            }
+
+            // Buttons
+            this.btnAdd.BackColor = Color.FromArgb(52, 86, 109);
+            this.btnAdd.ForeColor = Color.FromArgb(200, 200, 200);
         }
 
         private async void LoadData()
@@ -46,7 +88,7 @@ namespace TruckCentreWF.Forms
             foreach (var client in clients)
             {
                 dataGridViewClients.Rows.Add(
-                    client.IdClient,
+                    client.Name,
                     client.Email,
                     client.Address
                 );
@@ -80,24 +122,33 @@ namespace TruckCentreWF.Forms
             // Check if a client and vehicle are selected
             if (dataGridViewClients.SelectedRows.Count == 0 || dataGridViewVehicles.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Please select a client and a vehicle.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(resourceManager.GetString("msgSelect"),
+                    resourceManager.GetString("lblError"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
                 return;
             }
 
             // Check if the text box is filled
             if (string.IsNullOrWhiteSpace(textBoxDetails.Text))
             {
-                MessageBox.Show("Please enter service details.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(resourceManager.GetString("msgEnterDetails"),
+                    resourceManager.GetString("lblError"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
                 return;
             }
 
             // Get selected client and vehicle Ids
-            var selectedClientIdStr = dataGridViewClients.SelectedRows[0].Cells[0].Value?.ToString();
+            var selectedClientIndex = dataGridViewClients.SelectedRows[0].Index;
             var selectedVehicleId = dataGridViewVehicles.SelectedRows[0].Cells[0].Value?.ToString();  // Use string for IdVehicle
 
-            if (!int.TryParse(selectedClientIdStr, out var selectedClientId))
+            if (selectedClientIndex == -1)
             {
-                MessageBox.Show("Error parsing client ID.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(resourceManager.GetString("msgErrorClientId"),
+                    resourceManager.GetString("lblError"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
                 return;
             }
 
@@ -105,7 +156,7 @@ namespace TruckCentreWF.Forms
             var newServiceTicket = new ServiceTicket
             {
                 IdEmployee = ApplicationService.CurrEmployee.IdEmployee,
-                IdClient = selectedClientId,
+                IdClient = clients[selectedClientIndex].IdClient,
                 EntryDate = DateTime.Now,
                 Details = textBoxDetails.Text,
                 Status = "Active",
@@ -130,18 +181,26 @@ namespace TruckCentreWF.Forms
 
                 if (addedServiceTicketVehicle != -1)
                 {
-                    MessageBox.Show("Service ticket and associated vehicle added successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show(resourceManager.GetString("msgSuccesfullyAdded"),
+                        resourceManager.GetString("lblSuccess"),
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Information);
 
-                    // Optionally, you can refresh the data grids or take any other actions
                 }
                 else
                 {
-                    MessageBox.Show("Error adding service ticket vehicle.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(resourceManager.GetString("msgFailedAdding"),
+                        resourceManager.GetString("lblError"),
+                        MessageBoxButtons.OK,
+                        MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("Error adding service ticket.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(resourceManager.GetString("msgFailedAdding"),
+                    resourceManager.GetString("lblError"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
             }
         }
     }

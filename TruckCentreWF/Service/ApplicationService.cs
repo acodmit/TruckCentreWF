@@ -12,8 +12,10 @@ using TruckCentreWF.Model.Dto;
 
 namespace TruckCentreWF.Service
 {
-    internal class ApplicationService
+    internal static class ApplicationService
     {
+        public static int languageIndex = 0;
+        public static int themeIndex = 0;
         public static Employee CurrEmployee { get; set; }
 
         public static int CurrEmployeeIdEmployee { get { return CurrEmployee.IdEmployee; } }
@@ -21,6 +23,9 @@ namespace TruckCentreWF.Service
 
         public static void SetLanguage(int index)
         {
+            // Set language index
+            languageIndex = index;
+
             switch(index)
             {
                 case 0:
