@@ -42,6 +42,10 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if (ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
@@ -77,6 +81,35 @@ namespace TruckCentreWF.Forms
             this.lblServices.ForeColor = Color.FromArgb(20, 40, 80);
             this.lblMinimise.ForeColor = Color.FromArgb(20, 40, 80);
             this.lblExit.ForeColor = Color.FromArgb(20, 40, 80);
+        }
+        private void SetGrayTheme()
+        {
+            // Form Background Color
+            this.BackColor = Color.FromArgb(240, 240, 240); // Light gray
+
+            // Background Colors
+            this.dataGridViewParts.BackgroundColor = Color.FromArgb(220, 220, 220); // Lighter gray
+            this.dataGridServices.BackgroundColor = Color.FromArgb(220, 220, 220); // Lighter gray
+
+            // Foreground Colors
+            foreach (DataGridViewColumn column in dataGridViewParts.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            }
+            foreach (DataGridViewColumn column in dataGridServices.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            }
+
+            // Labels
+            this.lblTitle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblInvoiceDetails.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblParts.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblServices.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblMinimise.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblExit.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
         }
 
         private void SetInvoiceDetailsText()

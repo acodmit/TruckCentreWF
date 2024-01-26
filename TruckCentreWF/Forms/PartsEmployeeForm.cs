@@ -35,6 +35,10 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if (ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
@@ -62,6 +66,27 @@ namespace TruckCentreWF.Forms
             this.btnDelete.BackColor = Color.FromArgb(52, 86, 109);
             this.btnAdd.ForeColor = Color.FromArgb(200, 200, 200);
             this.btnDelete.ForeColor = Color.FromArgb(200, 200, 200);
+        }
+        private void SetGrayTheme()
+        {
+            // Form Background Color
+            this.BackColor = Color.FromArgb(240, 240, 240); // Light gray
+
+            // Background Colors
+            this.dataGridViewParts.BackgroundColor = Color.FromArgb(220, 220, 220); // Lighter gray
+
+            // Foreground Colors
+            foreach (DataGridViewColumn column in dataGridViewParts.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            }
+
+            // Buttons
+            this.btnAdd.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.btnDelete.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.btnAdd.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.btnDelete.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
         }
 
         public async void LoadData()

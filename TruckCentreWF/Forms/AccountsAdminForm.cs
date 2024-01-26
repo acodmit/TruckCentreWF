@@ -34,6 +34,10 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if (ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
@@ -88,6 +92,29 @@ namespace TruckCentreWF.Forms
             this.button1.ForeColor = Color.FromArgb(200, 200, 200);
             this.button2.ForeColor = Color.FromArgb(200, 200, 200);
             this.button3.ForeColor = Color.FromArgb(200, 200, 200);
+        }
+        private void SetGrayTheme()
+        {
+            // Form Background Color
+            this.BackColor = Color.FromArgb(240, 240, 240); // Light gray
+
+            // Background Colors
+            this.dataGridView1.BackgroundColor = Color.FromArgb(220, 220, 220); // Lighter gray
+
+            // Foreground Colors
+            foreach (DataGridViewColumn column in dataGridView1.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            }
+
+            // Buttons
+            this.button1.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.button2.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.button3.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.button1.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.button2.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.button3.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
         }
 
         private void button1_Click(object sender, EventArgs e)

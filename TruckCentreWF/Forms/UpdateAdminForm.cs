@@ -42,6 +42,10 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if (ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
@@ -127,6 +131,26 @@ namespace TruckCentreWF.Forms
             this.labelTheme.ForeColor = Color.FromArgb(20, 40, 80);
             this.checkBoxAdmin.ForeColor = Color.FromArgb(20, 40, 80);
             this.buttonAdd.ForeColor = Color.FromArgb(200, 200, 200);
+        }
+
+        private void SetGrayTheme()
+        {
+            // Background Colors
+            this.BackColor = Color.FromArgb(240, 240, 240); // Light gray
+            this.comboBoxStatus.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.comboBoxTheme.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.buttonAdd.BackColor = Color.FromArgb(200, 200, 200); // Light gray
+
+            // Foreground Colors
+            this.labelUsername.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.labelPassword.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.labelRepeatPassword.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.labelStatus.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.labelFirstName.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.labelLastName.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.labelTheme.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.checkBoxAdmin.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.buttonAdd.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
         }
 
     }

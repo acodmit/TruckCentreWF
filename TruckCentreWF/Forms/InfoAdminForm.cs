@@ -26,6 +26,10 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if (ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
@@ -71,6 +75,23 @@ namespace TruckCentreWF.Forms
             this.labelTotalEmployees.ForeColor = Color.FromArgb(20, 40, 80);
             this.labelTotalVehicles.ForeColor = Color.FromArgb(20, 40, 80);
 
+        }
+        private void SetGrayTheme()
+        {
+            // Set Form background color to light gray
+            this.BackColor = Color.FromArgb(240, 240, 240);
+
+            // Set PanelInfo background color
+            this.panelInfo.BackColor = Color.FromArgb(220, 220, 220);
+
+            // Set LabelTitle color
+            this.labelTitle.ForeColor = Color.FromArgb(70, 70, 70);
+
+            // Set other Label colors
+            this.labelActiveTickets.ForeColor = Color.FromArgb(70, 70, 70);
+            this.labelFinishedTickets.ForeColor = Color.FromArgb(70, 70, 70);
+            this.labelTotalEmployees.ForeColor = Color.FromArgb(70, 70, 70);
+            this.labelTotalVehicles.ForeColor = Color.FromArgb(70, 70, 70);
         }
 
     }

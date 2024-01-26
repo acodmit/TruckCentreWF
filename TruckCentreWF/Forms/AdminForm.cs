@@ -33,11 +33,16 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if(ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
 
             }
+
             ApplicationService.themeIndex = ApplicationService.CurrEmployee.Theme;
 
             // Load Home Form class
@@ -116,6 +121,30 @@ namespace TruckCentreWF.Forms
             this.btnSettings.ForeColor = Color.FromArgb(200, 200, 200);
             this.btnInfo.ForeColor = Color.FromArgb(200, 200, 200);
             this.btnLogOut.ForeColor = Color.FromArgb(200, 200, 200);
+        }
+        private void SetGrayTheme()
+        {
+            // Background Colors
+            this.pnlLogo.BackColor = Color.FromArgb(220, 220, 220); // Light gray
+            this.pnlMenu.BackColor = Color.FromArgb(220, 220, 220); // Light gray
+            this.pnlToolbar.BackColor = Color.FromArgb(220, 220, 220); // Lighter gray
+            this.pnlMain.BackColor = Color.FromArgb(220, 220, 220); // Lighter gray
+            this.lblTitle.BackColor = Color.FromArgb(220, 220, 220); // Lighter gray
+            this.btnHome.BackColor = Color.FromArgb(220, 220, 220); // Light gray
+            this.btnLogOut.BackColor = Color.FromArgb(220, 220, 220); // Light gray
+            this.btnSettings.BackColor = Color.FromArgb(220, 220, 220); // Light gray
+            this.btnAccounts.BackColor = Color.FromArgb(220, 220, 220); // Light gray
+            this.btnInfo.BackColor = Color.FromArgb(220, 220, 220); // Light gray
+
+            // Foreground Colors
+            this.lblTitle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblMinimise.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblExit.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.btnHome.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.btnAccounts.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.btnSettings.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.btnInfo.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.btnLogOut.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
         }
 
         private void lblExit_Click(object sender, EventArgs e)

@@ -46,25 +46,25 @@
             // 
             // buttonSave
             // 
-            resources.ApplyResources(this.buttonSave, "buttonSave");
             this.buttonSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
+            resources.ApplyResources(this.buttonSave, "buttonSave");
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.UseVisualStyleBackColor = false;
             this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
             // 
             // panelSettings
             // 
-            resources.ApplyResources(this.panelSettings, "panelSettings");
             this.panelSettings.Controls.Add(this.comboBoxLanguage);
             this.panelSettings.Controls.Add(this.labelLanguage);
             this.panelSettings.Controls.Add(this.comboBoxTheme);
             this.panelSettings.Controls.Add(this.labelTheme);
+            resources.ApplyResources(this.panelSettings, "panelSettings");
             this.panelSettings.Name = "panelSettings";
             // 
             // comboBoxLanguage
             // 
-            resources.ApplyResources(this.comboBoxLanguage, "comboBoxLanguage");
             this.comboBoxLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.comboBoxLanguage, "comboBoxLanguage");
             this.comboBoxLanguage.FormattingEnabled = true;
             this.comboBoxLanguage.Items.AddRange(new object[] {
             resources.GetString("comboBoxLanguage.Items"),
@@ -79,12 +79,13 @@
             // 
             // comboBoxTheme
             // 
-            resources.ApplyResources(this.comboBoxTheme, "comboBoxTheme");
             this.comboBoxTheme.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.comboBoxTheme, "comboBoxTheme");
             this.comboBoxTheme.FormattingEnabled = true;
             this.comboBoxTheme.Items.AddRange(new object[] {
             resources.GetString("comboBoxTheme.Items"),
-            resources.GetString("comboBoxTheme.Items1")});
+            resources.GetString("comboBoxTheme.Items1"),
+            resources.GetString("comboBoxTheme.Items2")});
             this.comboBoxTheme.Name = "comboBoxTheme";
             // 
             // labelTheme
@@ -94,11 +95,11 @@
             // 
             // panelPassword
             // 
-            resources.ApplyResources(this.panelPassword, "panelPassword");
             this.panelPassword.Controls.Add(this.labelRepeatPassword);
             this.panelPassword.Controls.Add(this.textBoxRepeatPassword);
             this.panelPassword.Controls.Add(this.labelPassword);
             this.panelPassword.Controls.Add(this.textBoxPassword);
+            resources.ApplyResources(this.panelPassword, "panelPassword");
             this.panelPassword.Name = "panelPassword";
             // 
             // labelRepeatPassword

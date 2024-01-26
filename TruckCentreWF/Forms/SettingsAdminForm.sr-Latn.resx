@@ -145,6 +145,12 @@
   <data name="labelLanguage.Text" xml:space="preserve">
     <value>Jezik:</value>
   </data>
+  <data name="comboBoxTheme.Items" xml:space="preserve">
+    <value>ModernoZelena</value>
+  </data>
+  <data name="comboBoxTheme.Items1" xml:space="preserve">
+    <value>MornarskoPlava</value>
+  </data>
   <data name="labelTheme.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 23</value>
   </data>
@@ -154,17 +160,17 @@
   <data name="buttonSave.Text" xml:space="preserve">
     <value>Sačuvaj</value>
   </data>
-  <data name="lblError" xml:space="preserve">
-    <value>Greška!</value>
+  <data name="comboBoxTheme.Items2" xml:space="preserve">
+    <value>Siva</value>
   </data>
-  <data name="lblInformation" xml:space="preserve">
-    <value>Informacije</value>
-  </data>
-  <data name="lblSuccess" xml:space="preserve">
-    <value>Uspešno</value>
+  <data name="msgChangesSaved" xml:space="preserve">
+    <value>Izmene uspešno sačuvane!</value>
   </data>
   <data name="msgFailedUpdate" xml:space="preserve">
-    <value>Nije uspelo čuvanje postavki. Molimo pokušajte ponovo.</value>
+    <value>Neuspešno čuvanje podešavanja. Molimo pokušajte ponovo.</value>
+  </data>
+  <data name="msgLanguageAndThemeChanged" xml:space="preserve">
+    <value>Jezik i tema uspešno promenjeni.</value>
   </data>
   <data name="msgLanguageChanged" xml:space="preserve">
     <value>Jezik uspešno promenjen.</value>
@@ -176,21 +182,9 @@
     <value>Nova lozinka i ponovljena lozinka se ne podudaraju. Molimo pokušajte ponovo.</value>
   </data>
   <data name="msgSuccesfullUpdate" xml:space="preserve">
-    <value>Postavke uspešno sačuvane!</value>
+    <value>Podešavanja uspešno sačuvana!</value>
   </data>
   <data name="msgThemeChanged" xml:space="preserve">
-    <value>Tema uspešno promijenjena.</value>
-  </data>
-  <data name="msgLanguageAndThemeChanged" xml:space="preserve">
-    <value>Jezik i tema uspešno promenjeni.</value>
-  </data>
-  <data name="comboBoxTheme.Items" xml:space="preserve">
-    <value>ModernoZelena</value>
-  </data>
-  <data name="comboBoxTheme.Items1" xml:space="preserve">
-    <value>MornarskoPlava</value>
-  </data>
-  <data name="msgChangesSaved" xml:space="preserve">
-    <value>Promene uspešno sačuvane!</value>
+    <value>Tema uspešno promenjena.</value>
   </data>
 </root>

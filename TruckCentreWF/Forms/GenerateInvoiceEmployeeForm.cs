@@ -45,6 +45,10 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if (ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
@@ -100,6 +104,56 @@ namespace TruckCentreWF.Forms
             this.lblMinimise.ForeColor = Color.FromArgb(20, 40, 80);
             this.lblExit.ForeColor = Color.FromArgb(20, 40, 80);
         }
+        private void SetGrayTheme()
+        {
+            // Form Background Color
+            this.BackColor = Color.FromArgb(240, 240, 240); // Light gray
+
+            // Background Colors
+            this.dataGridViewParts.BackgroundColor = Color.FromArgb(220, 220, 220); // Lighter gray
+            this.dataGridViewServices.BackgroundColor = Color.FromArgb(220, 220, 220); // Lighter gray
+            this.dataGridViewItemParts.BackgroundColor = Color.FromArgb(220, 220, 220); // Lighter gray
+            this.dataGridViewItemServices.BackgroundColor = Color.FromArgb(220, 220, 220); // Lighter gray
+
+            // Foreground Colors
+            foreach (DataGridViewColumn column in dataGridViewParts.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            }
+            foreach (DataGridViewColumn column in dataGridViewServices.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            }
+            foreach (DataGridViewColumn column in dataGridViewItemParts.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            }
+            foreach (DataGridViewColumn column in dataGridViewItemServices.Columns)
+            {
+                column.HeaderCell.Style.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+                column.DefaultCellStyle.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            }
+
+            // Buttons
+            this.btnAddPart.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.btnAddService.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.btnRemovePart.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.btn.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.btnShowInvoice.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+            this.btnAddPart.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.btnAddService.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.btnRemovePart.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.btn.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+            this.btnShowInvoice.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+
+            // Labels
+            this.lblMinimise.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblExit.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+        }
+
         private async void LoadData()
         {
             PartDAO partsDAO = new PartDAO();

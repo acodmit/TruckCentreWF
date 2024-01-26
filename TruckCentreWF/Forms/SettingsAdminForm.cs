@@ -33,6 +33,10 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if (ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
@@ -162,5 +166,15 @@ namespace TruckCentreWF.Forms
             // Set Form foregroung colors
             this.buttonSave.ForeColor = Color.FromArgb(200, 200, 200);
         }
+        private void SetGrayTheme()
+        {
+            // Set Form background colors
+            this.BackColor = Color.FromArgb(240, 240, 240);
+            this.buttonSave.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+
+            // Set Form foregroung colors
+            this.buttonSave.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+        }
+
     }
 }

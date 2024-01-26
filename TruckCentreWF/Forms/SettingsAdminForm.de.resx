@@ -190,4 +190,7 @@
   <data name="msgChangesSaved" xml:space="preserve">
     <value>Änderungen erfolgreich gespeichert!</value>
   </data>
+  <data name="comboBoxTheme.Items2" xml:space="preserve">
+    <value>Grau</value>
+  </data>
 </root>

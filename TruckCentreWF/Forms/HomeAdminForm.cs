@@ -22,6 +22,10 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if (ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
@@ -38,6 +42,18 @@ namespace TruckCentreWF.Forms
             this.lblTitleHome.ForeColor = Color.FromArgb(20, 40, 80);
             this.lblContentHome.ForeColor = Color.FromArgb(20, 40, 80);
         }
+
+        private void SetGrayTheme()
+        {
+            // Background Colors
+            this.BackColor = Color.FromArgb(240, 240, 240); // Light gray
+            this.pnlMainHome.BackColor = Color.FromArgb(220, 220, 220); // Lighter gray
+
+            // Foreground Colors
+            this.lblTitleHome.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblContentHome.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+        }
+
 
     }
 }

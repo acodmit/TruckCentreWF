@@ -187,4 +187,7 @@
   <data name="msgThemeChanged" xml:space="preserve">
     <value>Tema uspešno promenjena.</value>
   </data>
+  <data name="comboBoxTheme.Items2" xml:space="preserve">
+    <value>Siva</value>
+  </data>
 </root>

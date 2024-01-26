@@ -33,6 +33,10 @@ namespace TruckCentreWF.Forms
             {
                 SetNavyTheme();
             }
+            else if (ApplicationService.CurrEmployee.Theme == 2)
+            {
+                SetGrayTheme();
+            }
             else
             {
                 // Leave default green theme
@@ -52,6 +56,20 @@ namespace TruckCentreWF.Forms
             this.lblMinimise.ForeColor = Color.FromArgb(20, 40, 80);
             this.btnAdd.ForeColor = Color.FromArgb(200, 200, 200);
         }
+        private void SetGrayTheme()
+        {
+            // Background Colors
+            this.BackColor = Color.FromArgb(240, 240, 240); // Light gray
+            this.btnAdd.BackColor = Color.FromArgb(180, 180, 180); // Medium gray
+
+            // Foreground Colors
+            this.lblExit.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblMinimise.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblExit.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.lblMinimise.ForeColor = Color.FromArgb(70, 70, 70); // Dark gray
+            this.btnAdd.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
+        }
+
 
         private void lblExit_Click(object sender, EventArgs e)
         {
