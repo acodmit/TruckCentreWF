@@ -32,13 +32,13 @@ namespace TruckCentreWF.Forms
             if (ApplicationService.CurrEmployee.Theme == 1)
             {
                 SetNavyTheme();
-                ApplicationService.themeIndex = 1;
             }
             else
             {
                 // Leave default green theme
 
             }
+            ApplicationService.themeIndex = ApplicationService.CurrEmployee.Theme;
 
             // Load Home Form class
             HomeAdminForm childForm = new HomeAdminForm();

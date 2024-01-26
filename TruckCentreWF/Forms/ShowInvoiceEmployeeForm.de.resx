@@ -148,4 +148,52 @@
   <data name="lblInvoiceDetails.Text" xml:space="preserve">
     <value>Wird geladen...</value>
   </data>
+  <data name="IdService.HeaderText" xml:space="preserve">
+    <value>ID-Dienst</value>
+  </data>
+  <data name="ItemPartPrice.HeaderText" xml:space="preserve">
+    <value>Artikel Preis</value>
+  </data>
+  <data name="ItemServicePrice.HeaderText" xml:space="preserve">
+    <value>Artikel Dienst Preis</value>
+  </data>
+  <data name="Labour.HeaderText" xml:space="preserve">
+    <value>Arbeitskraft</value>
+  </data>
+  <data name="LabourAmount.HeaderText" xml:space="preserve">
+    <value>Arbeitskraft Betrag</value>
+  </data>
+  <data name="lblEntryDate" xml:space="preserve">
+    <value>Eintrittsdatum:</value>
+  </data>
+  <data name="lblExit.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="lblMinimise.Text" xml:space="preserve">
+    <value> _</value>
+  </data>
+  <data name="lblNoDetails" xml:space="preserve">
+    <value>Keine Rechnungsdetails verfügbar.</value>
+  </data>
+  <data name="lblTotalAmount" xml:space="preserve">
+    <value>Gesamtbetrag:</value>
+  </data>
+  <data name="PartName.HeaderText" xml:space="preserve">
+    <value>Artikelname</value>
+  </data>
+  <data name="Quantity.HeaderText" xml:space="preserve">
+    <value>Menge</value>
+  </data>
+  <data name="SerialNumber.HeaderText" xml:space="preserve">
+    <value>Seriennummer</value>
+  </data>
+  <data name="ServiceFee.HeaderText" xml:space="preserve">
+    <value>Dienstleistungsgebühr</value>
+  </data>
+  <data name="ServiceName.HeaderText" xml:space="preserve">
+    <value>Dienstleistungsname</value>
+  </data>
+  <data name="UnitPrice.HeaderText" xml:space="preserve">
+    <value>Stückpreis</value>
+  </data>
 </root>

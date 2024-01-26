@@ -122,27 +122,63 @@
     <value>41, 31</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
-    <value>SR</value>
-  </data>
-<data name="lblGrandTotal.Text" xml:space="preserve">
-    <value>Ukupan iznos:</value>
-</data>
-<data name="lblMinimise.Text" xml:space="preserve">
-    <value>_</value>
-</data>
-<data name="lblInvoiceDetails.Text" xml:space="preserve">
-    <value>Učitavanje...</value>
-</data>
-<data name="lblExit.Text" xml:space="preserve">
-    <value>X</value>
-</data>
-<data name="lblTitle.Text" xml:space="preserve">
     <value>Detalji fakture</value>
-</data>
-<data name="lblParts.Text" xml:space="preserve">
+  </data>
+  <data name="lblGrandTotal.Text" xml:space="preserve">
+    <value>Ukupan iznos:</value>
+  </data>
+  <data name="lblMinimise.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="lblInvoiceDetails.Text" xml:space="preserve">
+    <value>Učitavanje...</value>
+  </data>
+  <data name="lblExit.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="lblParts.Text" xml:space="preserve">
     <value>Delovi uključeni na fakturi:</value>
-</data>
-<data name="lblServices.Text" xml:space="preserve">
+  </data>
+  <data name="lblServices.Text" xml:space="preserve">
     <value>Usluge uključene na fakturi:</value>
-</data>
+  </data>
+  <data name="IdService.HeaderText" xml:space="preserve">
+    <value>ID usluge</value>
+  </data>
+  <data name="ItemPartPrice.HeaderText" xml:space="preserve">
+    <value>Cena stavke</value>
+  </data>
+  <data name="ItemServicePrice.HeaderText" xml:space="preserve">
+    <value>Cena usluge stavke</value>
+  </data>
+  <data name="Labour.HeaderText" xml:space="preserve">
+    <value>Rad</value>
+  </data>
+  <data name="LabourAmount.HeaderText" xml:space="preserve">
+    <value>Količina rada</value>
+  </data>
+  <data name="lblEntryDate" xml:space="preserve">
+    <value>Datum unosa:</value>
+  </data>
+  <data name="lblNoDetails" xml:space="preserve">
+    <value>Nema dostupnih detalja o računu.</value>
+  </data>
+  <data name="lblTotalAmount" xml:space="preserve">
+    <value>Ukupan iznos:</value>
+  </data>
+  <data name="PartName.HeaderText" xml:space="preserve">
+    <value>Naziv dela</value>
+  </data>
+  <data name="Quantity.HeaderText" xml:space="preserve">
+    <value>Količina</value>
+  </data>
+  <data name="ServiceFee.HeaderText" xml:space="preserve">
+    <value>Naknada za uslugu</value>
+  </data>
+  <data name="ServiceName.HeaderText" xml:space="preserve">
+    <value>Naziv usluge</value>
+  </data>
+  <data name="UnitPrice.HeaderText" xml:space="preserve">
+    <value>Cena po komadu</value>
+  </data>
 </root>

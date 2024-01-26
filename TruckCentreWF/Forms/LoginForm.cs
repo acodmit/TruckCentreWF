@@ -11,14 +11,19 @@ using System.Threading;
 
 using TruckCentreWF.Service;
 using System.Globalization;
+using System.Resources;
 
 namespace TruckCentreWF.Forms
 {
     public partial class LoginForm : DraggableForm
     {
+        ResourceManager resourceManager;
         public LoginForm()
         {
             InitializeComponent();
+
+            // Initialize ResourceManager
+            resourceManager = new ResourceManager("TruckCentreWF.Forms.LoginForm", typeof(LoginForm).Assembly);
         }
 
         private void languageComboBox_SelectedIndexChanged(object sender, EventArgs e)
@@ -63,7 +68,10 @@ namespace TruckCentreWF.Forms
             else
             {
                 // Show an error message for incorrect username or password
-                MessageBox.Show("Incorrect username or password", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(resourceManager.GetString("msgIncorrect"),
+                    resourceManager.GetString("msgLoginFailed"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
             }
         }
 

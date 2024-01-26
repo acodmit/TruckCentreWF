@@ -264,7 +264,7 @@
     <value>VehiclesEmployeeForm</value>
   </data>
   <data name="LastService.HeaderText" xml:space="preserve">
-    <value>LastService</value>
+    <value>Last Service</value>
   </data>
   <data name="btnDelete.Location" type="System.Drawing.Point, System.Drawing">
     <value>765, 455</value>
@@ -321,7 +321,7 @@
     <value>Information</value>
   </data>
   <data name="lblSuccess" xml:space="preserve">
-    <value>Success</value>
+    <value>Successful</value>
   </data>
   <data name="lblWarning" xml:space="preserve">
     <value>Warning!</value>

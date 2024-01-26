@@ -137,7 +137,7 @@
     <value>Neuspelo dodavanje usluge.</value>
   </data>
   <data name="msgInvalidLabour" xml:space="preserve">
-    <value>Nevažeća vrednost radne snage. Molimo unesite ispravnu decimalnu vrednost.</value>
+    <value>Nevažeća vrednost količine rada. Molimo unesite ispravnu decimalnu vrednost.</value>
   </data>
   <data name="msgInvalidServiceFee" xml:space="preserve">
     <value>Nevažeća naknada za uslugu. Molimo unesite ispravnu decimalnu vrednost.</value>

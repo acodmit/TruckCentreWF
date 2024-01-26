@@ -125,7 +125,7 @@
     <value>Početna</value>
   </data>
   <data name="btnSettings.Text" xml:space="preserve">
-    <value>Postavke</value>
+    <value>Podešavanja</value>
   </data>
   <data name="btnVehicles.Text" xml:space="preserve">
     <value>Vozila</value>
@@ -140,7 +140,7 @@
     <value>Odjavi se</value>
   </data>
   <data name="btnParts.Text" xml:space="preserve">
-    <value>Dijelovi</value>
+    <value>Delovi</value>
   </data>
   <data name="btnTickets.Text" xml:space="preserve">
     <value>Servisni Tiketi</value>

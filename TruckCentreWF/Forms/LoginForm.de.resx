@@ -193,4 +193,10 @@
   <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>569, 35</value>
   </data>
+  <data name="msgIncorrect" xml:space="preserve">
+    <value>Falscher Benutzername oder falsches Passwort</value>
+  </data>
+  <data name="msgLoginFailed" xml:space="preserve">
+    <value>Anmeldung fehlgeschlagen</value>
+  </data>
 </root>

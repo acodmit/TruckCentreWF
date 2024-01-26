@@ -134,7 +134,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnSettings.Text" xml:space="preserve">
-    <value>Postavke</value>
+    <value>Podešavanja</value>
   </data>
   <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -174,7 +174,7 @@
     <value>Informacije</value>
   </data>
   <data name="lblSettings" xml:space="preserve">
-    <value>Postavke</value>
+    <value>Podešavanja</value>
   </data>
   <data name="lblLogOut" xml:space="preserve">
     <value>Odjavi se</value>

@@ -90,7 +90,7 @@ namespace TruckCentreWF.Model.Dao
                 {
                     try
                     {
-                        string query = "SELECT COUNT(*) FROM service_ticket WHERE status = true;";
+                        string query = "SELECT COUNT(*) FROM service_ticket WHERE status = 'Active'";
                         MySqlCommand command = new MySqlCommand(query, conn);
                         object result = await command.ExecuteScalarAsync();
 
@@ -126,7 +126,7 @@ namespace TruckCentreWF.Model.Dao
                 {
                     try
                     {
-                        string query = "SELECT COUNT(*) FROM service_ticket WHERE status = false;";
+                        string query = "SELECT COUNT(*) FROM service_ticket WHERE status = 'Finished'";
                         MySqlCommand command = new MySqlCommand(query, conn);
                         object result = await command.ExecuteScalarAsync();
 

@@ -466,7 +466,7 @@
     <value>Information</value>
   </data>
   <data name="lblSuccess" xml:space="preserve">
-    <value>Success</value>
+    <value>Successful</value>
   </data>
   <data name="lblWarning" xml:space="preserve">
     <value>Warning!</value>

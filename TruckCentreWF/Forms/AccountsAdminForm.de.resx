@@ -163,6 +163,6 @@
     <value>Bitte wählen Sie eine Zeile zum Löschen aus.</value>
   </data>
   <data name="msgWarningTitle" xml:space="preserve">
-    <value>Warnung</value>
+    <value>Warnung!</value>
   </data>
 </root>

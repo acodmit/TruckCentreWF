@@ -417,9 +417,9 @@
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>17, 17</value>
-  </metadata>
+  </data>
   <data name="toolStripLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 14pt</value>
   </data>
@@ -489,9 +489,9 @@
   <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
   </data>
@@ -1653,5 +1653,11 @@
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>TruckCentreWF.Forms.DraggableForm, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="msgIncorrect" xml:space="preserve">
+    <value>Incorrect username or password.</value>
+  </data>
+  <data name="msgLoginFailed" xml:space="preserve">
+    <value>Login failed.</value>
   </data>
 </root>

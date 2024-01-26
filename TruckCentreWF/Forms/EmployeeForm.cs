@@ -36,6 +36,7 @@ namespace TruckCentreWF.Forms
             {
                 // Leave default green theme
             }
+            ApplicationService.themeIndex = ApplicationService.CurrEmployee.Theme;
 
             // Load Home Form class
             HomeEmployeeForm childForm = new HomeEmployeeForm();

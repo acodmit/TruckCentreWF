@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Username.HeaderText" xml:space="preserve">
-    <value>KorisničkoIme</value>
+    <value>Korisničko Ime</value>
   </data>
   <data name="IsAdmin.HeaderText" xml:space="preserve">
-    <value>JeLiAdministrator</value>
+    <value>Je Li Administrator?</value>
   </data>
   <data name="FirstName.HeaderText" xml:space="preserve">
     <value>Ime</value>
@@ -179,18 +179,18 @@
     <value>Nalog uspešno obrisan.</value>
   </data>
   <data name="msgSuccessTitle" xml:space="preserve">
-    <value>Uspeh</value>
+    <value>Uspešno</value>
   </data>
   <data name="msgDeleteError" xml:space="preserve">
     <value>Neuspelo brisanje naloga.</value>
   </data>
   <data name="msgErrorTitle" xml:space="preserve">
-    <value>Greška</value>
+    <value>Greška!</value>
   </data>
   <data name="msgNoRowSelectedWarning" xml:space="preserve">
     <value>Molimo vas da izaberete red za brisanje.</value>
   </data>
   <data name="msgWarningTitle" xml:space="preserve">
-    <value>Upozorenje</value>
+    <value>Upozorenje!</value>
   </data>
 </root>

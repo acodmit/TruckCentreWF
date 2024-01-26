@@ -121,10 +121,10 @@
     <value>Dodaj nalog</value>
   </data>
   <data name="comboBoxTheme.Items" xml:space="preserve">
-    <value>ModerniZeleni</value>
+    <value>ModernoZeleno</value>
   </data>
   <data name="comboBoxTheme.Items1" xml:space="preserve">
-    <value>PlavoCrveni</value>
+    <value>MornarskoPlava</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="labelTheme.Size" type="System.Drawing.Size, System.Drawing">

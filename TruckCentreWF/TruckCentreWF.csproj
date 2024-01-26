@@ -380,9 +380,6 @@
     <EmbeddedResource Include="Forms\LoginForm.sr-Latn.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\LoginForm.sr.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Forms\PartsEmployeeForm.de.resx">
       <DependentUpon>PartsEmployeeForm.cs</DependentUpon>
     </EmbeddedResource>

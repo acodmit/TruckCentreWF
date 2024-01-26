@@ -125,10 +125,10 @@
     <value>212, 23</value>
   </data>
   <data name="labelUnitPrice.Text" xml:space="preserve">
-    <value>Cijena po komadu:</value>
+    <value>Cena po komadu:</value>
   </data>
   <data name="btnAdd.Text" xml:space="preserve">
-    <value>Dodaj dio</value>
+    <value>Dodaj deo</value>
   </data>
   <data name="msgFailedAdding" xml:space="preserve">
     <value>Neuspelo dodavanje dela.</value>
@@ -137,6 +137,6 @@
     <value>Nevažeća cena po jedinici. Molimo unesite ispravnu decimalnu vrednost.</value>
   </data>
   <data name="msgSuccessfulyAdded" xml:space="preserve">
-    <value>Dio uspešno dodat!</value>
+    <value>Deo uspešno dodat!</value>
   </data>
 </root>

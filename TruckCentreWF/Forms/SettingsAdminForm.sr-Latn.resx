@@ -134,7 +134,7 @@
     <value>Engleski</value>
   </data>
   <data name="comboBoxLanguage.Items1" xml:space="preserve">
-    <value>Njemački</value>
+    <value>Nemački</value>
   </data>
   <data name="comboBoxLanguage.Items2" xml:space="preserve">
     <value>Srpski</value>
@@ -161,28 +161,28 @@
     <value>Informacije</value>
   </data>
   <data name="lblSuccess" xml:space="preserve">
-    <value>Uspješno</value>
+    <value>Uspešno</value>
   </data>
   <data name="msgFailedUpdate" xml:space="preserve">
-    <value>Nije uspjelo čuvanje postavki. Molimo pokušajte ponovo.</value>
+    <value>Nije uspelo čuvanje postavki. Molimo pokušajte ponovo.</value>
   </data>
   <data name="msgLanguageChanged" xml:space="preserve">
-    <value>Jezik uspešno promijenjen.</value>
+    <value>Jezik uspešno promenjen.</value>
   </data>
   <data name="msgNoChanges" xml:space="preserve">
-    <value>Nema promjena za čuvanje.</value>
+    <value>Nema promena za čuvanje.</value>
   </data>
   <data name="msgPasswordMismatch" xml:space="preserve">
     <value>Nova lozinka i ponovljena lozinka se ne podudaraju. Molimo pokušajte ponovo.</value>
   </data>
   <data name="msgSuccesfullUpdate" xml:space="preserve">
-    <value>Postavke uspješno sačuvane!</value>
+    <value>Postavke uspešno sačuvane!</value>
   </data>
   <data name="msgThemeChanged" xml:space="preserve">
     <value>Tema uspešno promijenjena.</value>
   </data>
   <data name="msgLanguageAndThemeChanged" xml:space="preserve">
-    <value>Jezik i tema uspješno promijenjeni.</value>
+    <value>Jezik i tema uspešno promenjeni.</value>
   </data>
   <data name="comboBoxTheme.Items" xml:space="preserve">
     <value>ModernoZelena</value>
@@ -191,6 +191,6 @@
     <value>MornarskoPlava</value>
   </data>
   <data name="msgChangesSaved" xml:space="preserve">
-    <value>Promjene uspješno sačuvane!</value>
+    <value>Promene uspešno sačuvane!</value>
   </data>
 </root>

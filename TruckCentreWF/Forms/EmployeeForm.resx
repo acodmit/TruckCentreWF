@@ -144,9 +144,6 @@
   <data name="&gt;&gt;btnClients.Parent" xml:space="preserve">
     <value>pnlMenu</value>
   </data>
-  <data name="btnSettings.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 13.8pt</value>
-  </data>
   <data name="pnlMenu.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -162,8 +159,8 @@
   <data name="&gt;&gt;lblMinimise.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;btnVehicles.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;btnServices.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;pnlToolbar.Name" xml:space="preserve">
     <value>pnlToolbar</value>
@@ -183,6 +180,9 @@
   <data name="&gt;&gt;lblExit.Name" xml:space="preserve">
     <value>lblExit</value>
   </data>
+  <data name="lblClients" xml:space="preserve">
+    <value>Clients</value>
+  </data>
   <data name="lblTitle.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -198,8 +198,8 @@
   <data name="btnSettings.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="pnlMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="lblSettings" xml:space="preserve">
+    <value>Settings</value>
   </data>
   <data name="btnSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 0, 0, 0</value>
@@ -222,8 +222,8 @@
   <data name="pnlToolbar.Location" type="System.Drawing.Point, System.Drawing">
     <value>310, 0</value>
   </data>
-  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 45</value>
+  <data name="&gt;&gt;btnHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="btnParts.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 0, 0, 0</value>
@@ -231,11 +231,17 @@
   <data name="pnlMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="btnClients.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="btnVehicles.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 420</value>
   </data>
   <data name="btnHome.Size" type="System.Drawing.Size, System.Drawing">
     <value>310, 60</value>
+  </data>
+  <data name="&gt;&gt;btnVehicles.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="lblTitle.Text" xml:space="preserve">
     <value>Home</value>
@@ -279,14 +285,14 @@
   <data name="&gt;&gt;btnHome.Name" xml:space="preserve">
     <value>btnHome</value>
   </data>
-  <data name="&gt;&gt;btnHome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="btnServices.Text" xml:space="preserve">
     <value>Services</value>
   </data>
   <data name="btnVehicles.Size" type="System.Drawing.Size, System.Drawing">
     <value>310, 60</value>
+  </data>
+  <data name="&gt;&gt;pnlToolbar.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="btnParts.Size" type="System.Drawing.Size, System.Drawing">
     <value>310, 60</value>
@@ -294,11 +300,8 @@
   <data name="btnHome.Text" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="pnlToolbar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>990, 120</value>
-  </data>
-  <data name="btnParts.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 13.8pt</value>
+  <data name="lblParts" xml:space="preserve">
+    <value>Parts</value>
   </data>
   <data name="pnlToolbar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -333,14 +336,17 @@
   <data name="btnClients.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="btnClients.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
+  <data name="lblMinimise.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;btnSettings.Name" xml:space="preserve">
     <value>btnSettings</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>AdminForm</value>
+  </data>
+  <data name="lblServiceTickets" xml:space="preserve">
+    <value>Service Tickets</value>
   </data>
   <data name="&gt;&gt;lblTitle.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -369,11 +375,17 @@
   <data name="btnLogOut.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
+  <data name="lblVehicles" xml:space="preserve">
+    <value>Vehicles</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
   </data>
   <data name="&gt;&gt;btnClients.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnClients.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 360</value>
   </data>
   <data name="btnParts.Text" xml:space="preserve">
     <value>Parts</value>
@@ -402,14 +414,14 @@
   <data name="lblTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 40</value>
   </data>
-  <data name="lblMinimise.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>TruckCentreWF.Forms.DraggableForm, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;btnLogOut.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnParts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;btnTickets.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -432,8 +444,8 @@
   <data name="btnTickets.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="btnHome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>40, 0, 0, 0</value>
+  <data name="lblServices" xml:space="preserve">
+    <value>Services</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1567,6 +1579,9 @@
         //////////////////////////////////8=
 </value>
   </data>
+  <data name="btnTickets.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;btnSettings.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
@@ -1633,11 +1648,17 @@
   <data name="btnServices.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 13.8pt</value>
   </data>
+  <data name="btnSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="&gt;&gt;btnLogOut.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="btnHome.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="lblTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 45</value>
   </data>
   <data name="&gt;&gt;pnlToolbar.Type" xml:space="preserve">
     <value>TruckCentreWF.Forms.Common.DraggablePanel, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -1654,29 +1675,26 @@
   <data name="lblMinimise.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;btnServices.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="btnServices.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnLogOut.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="btnClients.Text" xml:space="preserve">
     <value>Clients</value>
   </data>
-  <data name="pnlLogo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;pnlLogo.Type" xml:space="preserve">
-    <value>TruckCentreWF.Forms.Common.TransparentPanel, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
   <data name="&gt;&gt;pnlMain.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="btnParts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="btnSettings.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="lblExit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  <data name="pnlToolbar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>990, 120</value>
   </data>
   <data name="btnTickets.Text" xml:space="preserve">
     <value>Service Tickets</value>
@@ -1699,8 +1717,8 @@
   <data name="lblExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="btnParts.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="btnSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13.8pt</value>
   </data>
   <data name="&gt;&gt;lblTitle.Name" xml:space="preserve">
     <value>lblTitle</value>
@@ -1717,14 +1735,14 @@
   <data name="btnLogOut.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="btnClients.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 360</value>
+  <data name="&gt;&gt;pnlLogo.Type" xml:space="preserve">
+    <value>TruckCentreWF.Forms.Common.TransparentPanel, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;btnServices.Name" xml:space="preserve">
     <value>btnServices</value>
   </data>
-  <data name="btnTickets.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="lblExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
   </data>
   <data name="btnParts.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1732,8 +1750,8 @@
   <data name="&gt;&gt;pnlLogo.Parent" xml:space="preserve">
     <value>pnlMenu</value>
   </data>
-  <data name="btnLogOut.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="btnParts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13.8pt</value>
   </data>
   <data name="btnClients.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 0, 0, 0</value>
@@ -1753,8 +1771,8 @@
   <data name="btnTickets.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="btnParts.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="pnlMenu.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="btnLogOut.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1783,8 +1801,8 @@
   <data name="btnClients.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <data name="btnSettings.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="pnlLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
   <data name="btnVehicles.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
@@ -1792,11 +1810,17 @@
   <data name="&gt;&gt;lblMinimise.Parent" xml:space="preserve">
     <value>pnlToolbar</value>
   </data>
+  <data name="lblLogOut" xml:space="preserve">
+    <value>Log Out</value>
+  </data>
   <data name="&gt;&gt;btnHome.Parent" xml:space="preserve">
     <value>pnlMenu</value>
   </data>
   <data name="&gt;&gt;lblMinimise.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="lblHome" xml:space="preserve">
+    <value>Home</value>
   </data>
   <data name="btnLogOut.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 13.8pt</value>
@@ -1804,40 +1828,13 @@
   <data name="btnLogOut.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>40, 0, 0, 0</value>
   </data>
-  <data name="&gt;&gt;pnlToolbar.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="btnHome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>40, 0, 0, 0</value>
   </data>
-  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
-    <value>39</value>
-  </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
-    <value>de</value>
-  </data>
-  <data name="lblClients" xml:space="preserve">
-    <value>Clients</value>
-  </data>
-  <data name="lblHome" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="lblLogOut" xml:space="preserve">
-    <value>Log Out</value>
-  </data>
-  <data name="lblParts" xml:space="preserve">
-    <value>Parts</value>
-  </data>
-  <data name="lblServices" xml:space="preserve">
-    <value>Services</value>
-  </data>
-  <data name="lblServiceTickets" xml:space="preserve">
-    <value>Service Tickets</value>
-  </data>
-  <data name="lblSettings" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="lblVehicles" xml:space="preserve">
-    <value>Vehicles</value>
-  </data>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>39</value>
+  </metadata>
 </root>

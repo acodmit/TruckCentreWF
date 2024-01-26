@@ -20,7 +20,6 @@ namespace TruckCentreWF.Service
 
         public static int CurrEmployeeIdEmployee { get { return CurrEmployee.IdEmployee; } }
 
-
         public static void SetLanguage(int index)
         {
             // Set language index
