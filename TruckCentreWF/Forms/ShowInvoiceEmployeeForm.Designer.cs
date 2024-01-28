@@ -65,9 +65,9 @@
             // 
             // dataGridViewParts
             // 
-            resources.ApplyResources(this.dataGridViewParts, "dataGridViewParts");
             this.dataGridViewParts.AllowUserToAddRows = false;
             this.dataGridViewParts.AllowUserToDeleteRows = false;
+            resources.ApplyResources(this.dataGridViewParts, "dataGridViewParts");
             this.dataGridViewParts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewParts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.SerialNumber,
@@ -112,9 +112,9 @@
             // 
             // dataGridServices
             // 
-            resources.ApplyResources(this.dataGridServices, "dataGridServices");
             this.dataGridServices.AllowUserToAddRows = false;
             this.dataGridServices.AllowUserToDeleteRows = false;
+            resources.ApplyResources(this.dataGridServices, "dataGridServices");
             this.dataGridServices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridServices.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.IdService,

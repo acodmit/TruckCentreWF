@@ -188,4 +188,10 @@
   <data name="msgSuccesfullyAdded" xml:space="preserve">
     <value>Service-Ticket und zugehöriges Fahrzeug erfolgreich hinzugefügt.</value>
   </data>
+  <data name="msgEnterDetails" xml:space="preserve">
+    <value>Bitte gibt Details um ein Ticket zu hinzüfingen.</value>
+  </data>
+  <data name="ClientName.HeaderText" xml:space="preserve">
+    <value>Kunden Name</value>
+  </data>
 </root>

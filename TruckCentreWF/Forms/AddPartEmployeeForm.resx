@@ -117,55 +117,152 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="labelPartName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10.2pt</value>
+  <data name="msgInvalidUnitPrice" xml:space="preserve">
+    <value>Invalid unit price. Please enter a valid decimal value.</value>
   </data>
-  <data name="labelPartName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 69</value>
-  </data>
-  <data name="labelPartName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="labelPartName.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="labelPartName.Text" xml:space="preserve">
-    <value>Name:</value>
-  </data>
-  <data name="&gt;&gt;labelPartName.Name" xml:space="preserve">
-    <value>labelPartName</value>
-  </data>
-  <data name="&gt;&gt;labelPartName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelPartName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelPartName.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="txbPartName.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10.2pt</value>
-  </data>
-  <data name="txbPartName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 95</value>
-  </data>
-  <data name="txbPartName.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="txbPartName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 89</value>
-  </data>
-  <data name="txbPartName.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;txbPartName.Name" xml:space="preserve">
     <value>txbPartName</value>
   </data>
+  <data name="&gt;&gt;labelUnitPrice.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelPartName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelUnitPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>TruckCentreWF.Forms.DraggableForm, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="lblMinimise.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelUnitPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 199</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Name" xml:space="preserve">
+    <value>lblMinimise</value>
+  </data>
+  <data name="txbUnitPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblExit.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
   <data name="&gt;&gt;txbPartName.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txbUnitPrice.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="&gt;&gt;labelPartName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="labelPartName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 69</value>
+  </data>
+  <data name="msgFailedAdding" xml:space="preserve">
+    <value>Failed to add part.</value>
+  </data>
+  <data name="lblExit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 9</value>
+  </data>
+  <data name="labelUnitPrice.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblMinimise.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="labelUnitPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;lblExit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblMinimise.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 9</value>
+  </data>
+  <data name="txbUnitPrice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 225</value>
+  </data>
+  <data name="lblError" xml:space="preserve">
+    <value>Error!</value>
+  </data>
+  <data name="lblMinimise.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;labelPartName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelUnitPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
+    <value>btnAdd</value>
+  </data>
+  <data name="txbPartName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="lblExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Semibold, 12pt, style=Bold</value>
+  </data>
+  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 35</value>
+  </data>
+  <data name="&gt;&gt;txbUnitPrice.Name" xml:space="preserve">
+    <value>txbUnitPrice</value>
+  </data>
+  <data name="lblExit.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;lblMinimise.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblSuccess" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="lblMinimise.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 290</value>
+  </data>
+  <data name="labelPartName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="lblWarning" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AddPartEmployeeForm</value>
+  </data>
+  <data name="txbPartName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>59, 95</value>
   </data>
   <data name="&gt;&gt;txbPartName.Parent" xml:space="preserve">
     <value>$this</value>
@@ -173,191 +270,94 @@
   <data name="&gt;&gt;txbPartName.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="labelUnitPrice.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10.2pt</value>
+  <data name="msgSuccessfulyAdded" xml:space="preserve">
+    <value>Part added successfully!</value>
   </data>
-  <data name="labelUnitPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 199</value>
-  </data>
-  <data name="labelUnitPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="labelUnitPrice.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="labelUnitPrice.Text" xml:space="preserve">
-    <value>Unit price:</value>
-  </data>
-  <data name="&gt;&gt;labelUnitPrice.Name" xml:space="preserve">
-    <value>labelUnitPrice</value>
-  </data>
-  <data name="&gt;&gt;labelUnitPrice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelUnitPrice.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;labelUnitPrice.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="txbUnitPrice.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10.2pt</value>
-  </data>
-  <data name="txbUnitPrice.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 225</value>
-  </data>
-  <data name="txbUnitPrice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>208, 30</value>
-  </data>
-  <data name="txbUnitPrice.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;txbUnitPrice.Name" xml:space="preserve">
-    <value>txbUnitPrice</value>
-  </data>
-  <data name="&gt;&gt;txbUnitPrice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txbUnitPrice.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txbUnitPrice.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnAdd.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 10.2pt</value>
-  </data>
-  <data name="btnAdd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 290</value>
-  </data>
-  <data name="btnAdd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 35</value>
-  </data>
-  <data name="btnAdd.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="btnAdd.Text" xml:space="preserve">
-    <value>Add part</value>
-  </data>
-  <data name="&gt;&gt;btnAdd.Name" xml:space="preserve">
-    <value>btnAdd</value>
-  </data>
-  <data name="&gt;&gt;btnAdd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAdd.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblExit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="lblExit.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblExit.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 12pt, style=Bold</value>
-  </data>
-  <data name="lblExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>284, 9</value>
-  </data>
-  <data name="lblExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>24, 28</value>
-  </data>
-  <data name="lblExit.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="lblExit.Text" xml:space="preserve">
-    <value>X</value>
-  </data>
-  <data name="&gt;&gt;lblExit.Name" xml:space="preserve">
-    <value>lblExit</value>
-  </data>
-  <data name="&gt;&gt;lblExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblExit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblExit.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblMinimise.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblMinimise.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI Semibold, 12pt, style=Bold</value>
-  </data>
-  <data name="lblMinimise.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lblMinimise.Location" type="System.Drawing.Point, System.Drawing">
-    <value>258, 9</value>
-  </data>
-  <data name="lblMinimise.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 28</value>
-  </data>
-  <data name="lblMinimise.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="lblMinimise.Text" xml:space="preserve">
-    <value>_</value>
-  </data>
-  <data name="&gt;&gt;lblMinimise.Name" xml:space="preserve">
-    <value>lblMinimise</value>
-  </data>
-  <data name="&gt;&gt;lblMinimise.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblMinimise.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblMinimise.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
-    <value>de</value>
-  </data>
-  <data name="$this.Localizable" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+  <data name="&gt;&gt;labelPartName.Name" xml:space="preserve">
+    <value>labelPartName</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>320, 380</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>AddPartEmployeeForm</value>
+  <data name="labelPartName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>TruckCentreWF.Forms.DraggableForm, TruckCentreWF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;lblExit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblError" xml:space="preserve">
-    <value>Error!</value>
+  <data name="btnAdd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10.2pt</value>
+  </data>
+  <data name="labelPartName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="txbPartName.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelUnitPrice.Text" xml:space="preserve">
+    <value>Unit price:</value>
+  </data>
+  <data name="lblMinimise.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 28</value>
+  </data>
+  <data name="&gt;&gt;btnAdd.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txbPartName.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelUnitPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txbUnitPrice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txbUnitPrice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 30</value>
   </data>
   <data name="lblInformation" xml:space="preserve">
     <value>Information</value>
   </data>
-  <data name="lblSuccess" xml:space="preserve">
-    <value>Success</value>
+  <data name="lblExit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 28</value>
   </data>
-  <data name="lblWarning" xml:space="preserve">
-    <value>Warning!</value>
+  <data name="lblExit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="msgFailedAdding" xml:space="preserve">
-    <value>Failed to add part.</value>
+  <data name="&gt;&gt;labelUnitPrice.Name" xml:space="preserve">
+    <value>labelUnitPrice</value>
   </data>
-  <data name="msgInvalidUnitPrice" xml:space="preserve">
-    <value>Invalid unit price. Please enter a valid decimal value.</value>
+  <data name="&gt;&gt;lblMinimise.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="msgSuccessfulyAdded" xml:space="preserve">
-    <value>Part added successfully!</value>
+  <data name="&gt;&gt;lblExit.Name" xml:space="preserve">
+    <value>lblExit</value>
   </data>
+  <data name="labelPartName.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="&gt;&gt;txbUnitPrice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="txbPartName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>208, 89</value>
+  </data>
+  <data name="&gt;&gt;txbUnitPrice.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>Add part</value>
+  </data>
+  <data name="&gt;&gt;lblExit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMinimise.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>de</value>
+  </metadata>
 </root>

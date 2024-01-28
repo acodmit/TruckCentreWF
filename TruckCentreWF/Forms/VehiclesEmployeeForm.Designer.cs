@@ -47,9 +47,9 @@
             // 
             // btnDelete
             // 
-            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
             this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -57,9 +57,9 @@
             // 
             // btnAdd
             // 
-            resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
             this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.UseVisualStyleBackColor = false;
@@ -67,7 +67,6 @@
             // 
             // dataGridViewVehicles
             // 
-            resources.ApplyResources(this.dataGridViewVehicles, "dataGridViewVehicles");
             this.dataGridViewVehicles.AllowUserToAddRows = false;
             this.dataGridViewVehicles.AllowUserToDeleteRows = false;
             this.dataGridViewVehicles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -76,6 +75,7 @@
             this.Mileage,
             this.Details,
             this.LastService});
+            resources.ApplyResources(this.dataGridViewVehicles, "dataGridViewVehicles");
             this.dataGridViewVehicles.Name = "dataGridViewVehicles";
             this.dataGridViewVehicles.ReadOnly = true;
             this.dataGridViewVehicles.RowTemplate.Height = 24;

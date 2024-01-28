@@ -163,4 +163,10 @@
   <data name="msgSuccesfullyAdded" xml:space="preserve">
     <value>Servisni tiket i povezano vozilo uspešno dodati.</value>
   </data>
+  <data name="msgEnterDetails" xml:space="preserve">
+    <value>Unesite detalje kako biste kreirali tiket.</value>
+  </data>
+  <data name="ClientName.HeaderText" xml:space="preserve">
+    <value>Ime klijenta</value>
+  </data>
 </root>

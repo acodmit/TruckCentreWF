@@ -101,7 +101,7 @@ namespace TruckCentreWF.Forms
             this.btnGenerateInvoice.ForeColor = Color.FromArgb(40, 40, 40); // Dark gray
         }
 
-        private async void LoadData()
+        public async void LoadData()
         {
             // Initialize DAOs
             ServiceTicketDAO serviceTicketDAO = new ServiceTicketDAO();
@@ -195,7 +195,7 @@ namespace TruckCentreWF.Forms
         private void btnAdd_Click(object sender, EventArgs e)
         {
             // Initialize the AddServiceTicketEmployeeForm
-            AddServiceTicketEmployeeForm addServiceTicketEmployeeForm = new AddServiceTicketEmployeeForm();
+            AddServiceTicketEmployeeForm addServiceTicketEmployeeForm = new AddServiceTicketEmployeeForm(this);
 
             // Show the form
             addServiceTicketEmployeeForm.ShowDialog();

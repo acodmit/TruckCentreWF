@@ -19,9 +19,13 @@ namespace TruckCentreWF.Forms
         private List<Model.Dto.Client> clients;
         private List<Vehicle> vehicles;
         private ResourceManager resourceManager;
+        private ServiceTicketsEmployeeForm ticketsForm;
 
-        public AddServiceTicketEmployeeForm()
+        public AddServiceTicketEmployeeForm( ServiceTicketsEmployeeForm ticketsForm)
         {
+            // Set ticketsForm
+            this.ticketsForm = ticketsForm;
+
             InitializeComponent();
 
             // Initializing resourceManager
@@ -215,7 +219,7 @@ namespace TruckCentreWF.Forms
                         resourceManager.GetString("lblSuccess"),
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
-
+                    ticketsForm.LoadData();
                 }
                 else
                 {

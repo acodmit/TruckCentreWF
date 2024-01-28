@@ -47,7 +47,7 @@ namespace TruckCentreWF.Forms
             string password = textBoxPassword.Text;
             string repeatPassword = textBoxRepeatPassword.Text;
             bool isAdmin = checkBoxAdmin.Checked;
-            bool status = comboBoxStatus.SelectedItem.ToString().ToLower() == "active"; // Assuming "Active" is selected by default
+            bool status = comboBoxStatus.SelectedItem.ToString().ToLower().Equals("active"); // Assuming "Active" is selected by default
             string firstName = textBoxFirstName.Text;
             string lastName = textBoxLastName.Text;
             int theme = comboBoxTheme.SelectedIndex;
@@ -75,7 +75,7 @@ namespace TruckCentreWF.Forms
 
                 if (addedSuccessfully)
                 {
-                    MessageBox.Show(resourceManager.GetString("msgSuccesfullUpdate"),
+                    MessageBox.Show(resourceManager.GetString("msgSuccesfullyAdded"),
                         resourceManager.GetString("lblSuccess"),
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Information);
@@ -83,7 +83,7 @@ namespace TruckCentreWF.Forms
                 }
                 else
                 {
-                    MessageBox.Show(resourceManager.GetString("msgFailedUpdate"),
+                    MessageBox.Show(resourceManager.GetString("msgFailedAdding"),
                         resourceManager.GetString("lblError"),
                         MessageBoxButtons.OK,
                         MessageBoxIcon.Error);

@@ -24,6 +24,8 @@ namespace TruckCentreWF.Forms
 
             // Initialize ResourceManager
             resourceManager = new ResourceManager("TruckCentreWF.Forms.LoginForm", typeof(LoginForm).Assembly);
+
+
         }
 
         private void languageComboBox_SelectedIndexChanged(object sender, EventArgs e)

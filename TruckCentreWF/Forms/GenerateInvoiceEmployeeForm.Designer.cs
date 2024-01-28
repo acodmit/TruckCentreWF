@@ -67,9 +67,9 @@ namespace TruckCentreWF.Forms
             // 
             // dataGridViewParts
             // 
-            resources.ApplyResources(this.dataGridViewParts, "dataGridViewParts");
             this.dataGridViewParts.AllowUserToAddRows = false;
             this.dataGridViewParts.AllowUserToDeleteRows = false;
+            resources.ApplyResources(this.dataGridViewParts, "dataGridViewParts");
             this.dataGridViewParts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewParts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.SerialNumber,
@@ -100,9 +100,9 @@ namespace TruckCentreWF.Forms
             // 
             // dataGridViewServices
             // 
-            resources.ApplyResources(this.dataGridViewServices, "dataGridViewServices");
             this.dataGridViewServices.AllowUserToAddRows = false;
             this.dataGridViewServices.AllowUserToDeleteRows = false;
+            resources.ApplyResources(this.dataGridViewServices, "dataGridViewServices");
             this.dataGridViewServices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewServices.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ServiceName,
@@ -133,9 +133,9 @@ namespace TruckCentreWF.Forms
             // 
             // btnAddPart
             // 
-            resources.ApplyResources(this.btnAddPart, "btnAddPart");
             this.btnAddPart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
             this.btnAddPart.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnAddPart, "btnAddPart");
             this.btnAddPart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAddPart.Name = "btnAddPart";
             this.btnAddPart.UseVisualStyleBackColor = false;
@@ -143,9 +143,9 @@ namespace TruckCentreWF.Forms
             // 
             // btnAddService
             // 
-            resources.ApplyResources(this.btnAddService, "btnAddService");
             this.btnAddService.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
             this.btnAddService.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnAddService, "btnAddService");
             this.btnAddService.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAddService.Name = "btnAddService";
             this.btnAddService.UseVisualStyleBackColor = false;
@@ -153,9 +153,9 @@ namespace TruckCentreWF.Forms
             // 
             // btnShowInvoice
             // 
-            resources.ApplyResources(this.btnShowInvoice, "btnShowInvoice");
             this.btnShowInvoice.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
             this.btnShowInvoice.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnShowInvoice, "btnShowInvoice");
             this.btnShowInvoice.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnShowInvoice.Name = "btnShowInvoice";
             this.btnShowInvoice.UseVisualStyleBackColor = false;
@@ -205,9 +205,9 @@ namespace TruckCentreWF.Forms
             // 
             // btnRemovePart
             // 
-            resources.ApplyResources(this.btnRemovePart, "btnRemovePart");
             this.btnRemovePart.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
             this.btnRemovePart.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnRemovePart, "btnRemovePart");
             this.btnRemovePart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnRemovePart.Name = "btnRemovePart";
             this.btnRemovePart.UseVisualStyleBackColor = false;
@@ -215,9 +215,9 @@ namespace TruckCentreWF.Forms
             // 
             // dataGridViewItemServices
             // 
-            resources.ApplyResources(this.dataGridViewItemServices, "dataGridViewItemServices");
             this.dataGridViewItemServices.AllowUserToAddRows = false;
             this.dataGridViewItemServices.AllowUserToDeleteRows = false;
+            resources.ApplyResources(this.dataGridViewItemServices, "dataGridViewItemServices");
             this.dataGridViewItemServices.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewItemServices.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn2,
@@ -263,9 +263,9 @@ namespace TruckCentreWF.Forms
             // 
             // dataGridViewItemParts
             // 
-            resources.ApplyResources(this.dataGridViewItemParts, "dataGridViewItemParts");
             this.dataGridViewItemParts.AllowUserToAddRows = false;
             this.dataGridViewItemParts.AllowUserToDeleteRows = false;
+            resources.ApplyResources(this.dataGridViewItemParts, "dataGridViewItemParts");
             this.dataGridViewItemParts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewItemParts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn5,
@@ -321,16 +321,16 @@ namespace TruckCentreWF.Forms
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btn);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // btn
             // 
-            resources.ApplyResources(this.btn, "btn");
             this.btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
             this.btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btn, "btn");
             this.btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn.Name = "btn";
             this.btn.UseVisualStyleBackColor = false;
@@ -338,7 +338,6 @@ namespace TruckCentreWF.Forms
             // 
             // panel2
             // 
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.textBoxQuantityPart);
             this.panel2.Controls.Add(this.btnAddPart);
@@ -346,6 +345,7 @@ namespace TruckCentreWF.Forms
             this.panel2.Controls.Add(this.textBoxQuantityService);
             this.panel2.Controls.Add(this.btnAddService);
             this.panel2.Controls.Add(this.labelQuantityService);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // GenerateInvoiceEmployeeForm

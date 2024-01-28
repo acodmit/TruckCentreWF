@@ -166,26 +166,25 @@
   <data name="labelTheme.Text" xml:space="preserve">
     <value>Design:</value>
   </data>
-<data name="msgPasswordMismatch" xml:space="preserve">
-  <value>Passwörter stimmen nicht überein. Bitte geben Sie die Passwörter erneut ein.</value>
-</data>
-<data name="msgFailedUpdate" xml:space="preserve">
-  <value>Mitarbeiter konnte nicht hinzugefügt werden. Bitte überprüfen Sie Ihre Eingaben und versuchen Sie es erneut.</value>
-</data>
-<data name="msgSuccesfullUpdate" xml:space="preserve">
-  <value>Mitarbeiter erfolgreich hinzugefügt.</value>
-</data>
-<data name="msgNoChanges" xml:space="preserve">
-  <value>Keine Änderungen zum Speichern vorhanden.</value>
-</data>
-<data name="lblError" xml:space="preserve">
-  <value>Fehler</value>
-</data>
-<data name="lblPasswordMismatch" xml:space="preserve">
-  <value>Passwort stimmt nicht überein</value>
-</data>
-<data name="lblSuccess" xml:space="preserve">
-  <value>Erfolgreich</value>
-</data>
-
+  <data name="msgPasswordMismatch" xml:space="preserve">
+    <value>Passwörter stimmen nicht überein. Bitte geben Sie die Passwörter erneut ein.</value>
+  </data>
+  <data name="msgFailedAdding" xml:space="preserve">
+    <value>Mitarbeiter konnte nicht hinzugefügt werden. Bitte überprüfen Sie Ihre Eingaben und versuchen Sie es erneut.</value>
+  </data>
+  <data name="msgSuccesfullyAdded" xml:space="preserve">
+    <value>Mitarbeiter erfolgreich hinzugefügt.</value>
+  </data>
+  <data name="lblError" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="lblPasswordMismatch" xml:space="preserve">
+    <value>Passwort stimmt nicht überein</value>
+  </data>
+  <data name="lblSuccess" xml:space="preserve">
+    <value>Erfolgreich</value>
+  </data>
+  <data name="comboBoxTheme.Items2" xml:space="preserve">
+    <value>Grau</value>
+  </data>
 </root>

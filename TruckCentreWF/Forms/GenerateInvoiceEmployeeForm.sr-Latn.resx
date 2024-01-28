@@ -217,4 +217,61 @@
   <data name="btn.Text" xml:space="preserve">
     <value>Ukloni uslugu</value>
   </data>
+  <data name="msgErrorGettingItemPart" xml:space="preserve">
+    <value>Greška pri dobavljanju odabranog dela stavke.</value>
+  </data>
+  <data name="msgErrorGettingItemService" xml:space="preserve">
+    <value>Greška pri dobavljanju odabranog servisa stavke.</value>
+  </data>
+  <data name="msgErrorGettingPart" xml:space="preserve">
+    <value>Greška pri dobavljanju odabranog dela.</value>
+  </data>
+  <data name="msgErrorGettingService" xml:space="preserve">
+    <value>Greška pri dobavljanju odabranog servisa.</value>
+  </data>
+  <data name="msgFailedAdding" xml:space="preserve">
+    <value>Greška pri dodavanju dela.</value>
+  </data>
+  <data name="msgFailedAddingService" xml:space="preserve">
+    <value>Greška pri dodavanju servisa.</value>
+  </data>
+  <data name="msgFailedDeletingItemPart" xml:space="preserve">
+    <value>Greška pri brisanju dela stavke.</value>
+  </data>
+  <data name="msgFailedDeletingItemService" xml:space="preserve">
+    <value>Greška pri brisanju servisa stavke.</value>
+  </data>
+  <data name="msgNoTicket" xml:space="preserve">
+    <value>Nema dostupnog obradnog tiketa.</value>
+  </data>
+  <data name="msgSelectItemPart" xml:space="preserve">
+    <value>Molimo odaberite deo stavke.</value>
+  </data>
+  <data name="msgSelectItemService" xml:space="preserve">
+    <value>Molimo odaberite servis stavke.</value>
+  </data>
+  <data name="msgSelectPart" xml:space="preserve">
+    <value>Molimo odaberite deo.</value>
+  </data>
+  <data name="msgSelectService" xml:space="preserve">
+    <value>Molimo odaberite servis.</value>
+  </data>
+  <data name="msgSuccessfullyAdded" xml:space="preserve">
+    <value>Deo uspešno dodat.</value>
+  </data>
+  <data name="msgSuccessfullyAddedItemService" xml:space="preserve">
+    <value>Servis stavke uspešno obrisan.</value>
+  </data>
+  <data name="msgSuccessfullyAddedService" xml:space="preserve">
+    <value>Servis uspešno dodat.</value>
+  </data>
+  <data name="msgSucessfullyDeletedItemPart" xml:space="preserve">
+    <value>Deo stavke uspešno obrisan.</value>
+  </data>
+  <data name="msgValidLabourAmount" xml:space="preserve">
+    <value>Molimo unesite validan iznos rada.</value>
+  </data>
+  <data name="msgValidQuantity" xml:space="preserve">
+    <value>Molimo unesite validnu količinu.</value>
+  </data>
 </root>

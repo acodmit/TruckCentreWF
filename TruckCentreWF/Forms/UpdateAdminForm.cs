@@ -67,7 +67,10 @@ namespace TruckCentreWF.Forms
             // Check if passwords match
             if (password != repeatPassword)
             {
-                MessageBox.Show("Passwords do not match.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(resourceManager.GetString("msgPasswordMismatch"),
+                    "Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
                 return;
             }
 
@@ -89,12 +92,18 @@ namespace TruckCentreWF.Forms
             // Check the result of the update operation
             if (updateResult)
             {
-                MessageBox.Show("Employee updated successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(resourceManager.GetString("msgSuccesfullUpdate"),
+                    resourceManager.GetString("lblSuccess"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
                 this.Close();  // Close the form after a successful update
             }
             else
             {
-                MessageBox.Show("Failed to update employee.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(resourceManager.GetString("msgFailedUpdate"),
+                    resourceManager.GetString("lblError"),
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
             }
 
         }

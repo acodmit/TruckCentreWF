@@ -30,7 +30,6 @@
             // 
             // dataGridViewParts
             // 
-            resources.ApplyResources(this.dataGridViewParts, "dataGridViewParts");
             this.dataGridViewParts.AllowUserToAddRows = false;
             this.dataGridViewParts.AllowUserToDeleteRows = false;
             this.dataGridViewParts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -38,6 +37,7 @@
             this.SerialNumber,
             this.Name,
             this.UnitPrice});
+            resources.ApplyResources(this.dataGridViewParts, "dataGridViewParts");
             this.dataGridViewParts.Name = "dataGridViewParts";
             this.dataGridViewParts.ReadOnly = true;
             this.dataGridViewParts.RowTemplate.Height = 24;
@@ -63,9 +63,9 @@
             // 
             // btnDelete
             // 
-            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
             this.btnDelete.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnDelete, "btnDelete");
             this.btnDelete.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.UseVisualStyleBackColor = false;
@@ -73,9 +73,9 @@
             // 
             // btnAdd
             // 
-            resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(195)))), ((int)(((byte)(178)))));
             this.btnAdd.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.btnAdd, "btnAdd");
             this.btnAdd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.UseVisualStyleBackColor = false;

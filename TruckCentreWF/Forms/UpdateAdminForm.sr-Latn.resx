@@ -163,4 +163,28 @@
   <data name="labelUsername.Text" xml:space="preserve">
     <value>Korisničko ime:</value>
   </data>
+  <data name="comboBoxStatus.Items" xml:space="preserve">
+    <value>Aktivan</value>
+  </data>
+  <data name="comboBoxStatus.Items1" xml:space="preserve">
+    <value>Blokiran</value>
+  </data>
+  <data name="comboBoxTheme.Items" xml:space="preserve">
+    <value>ModeranoZelena</value>
+  </data>
+  <data name="comboBoxTheme.Items1" xml:space="preserve">
+    <value>MornarskoPlava</value>
+  </data>
+  <data name="comboBoxTheme.Items2" xml:space="preserve">
+    <value>Siva</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="labelStatus.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
 </root>

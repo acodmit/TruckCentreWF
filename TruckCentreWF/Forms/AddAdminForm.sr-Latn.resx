@@ -175,4 +175,34 @@
   <data name="labelUsername.Text" xml:space="preserve">
     <value>Korisničko ime:</value>
   </data>
+  <data name="comboBoxTheme.Items2" xml:space="preserve">
+    <value>Siva</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="labelStatus.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="lblError" xml:space="preserve">
+    <value>Greška</value>
+  </data>
+  <data name="lblPasswordMismatch" xml:space="preserve">
+    <value>Lozinke se ne podudaraju</value>
+  </data>
+  <data name="lblSuccess" xml:space="preserve">
+    <value>Uspešno</value>
+  </data>
+  <data name="msgFailedAdding" xml:space="preserve">
+    <value>Zaposleni nije mogao biti dodat. Molimo proverite unose i pokušajte ponovo.</value>
+  </data>
+  <data name="msgPasswordMismatch" xml:space="preserve">
+    <value>Lozinke se ne podudaraju. Molimo unesite lozinke ponovo.</value>
+  </data>
+  <data name="msgSuccesfullyAdded" xml:space="preserve">
+    <value>Zaposleni uspešno dodat.</value>
+  </data>
 </root>

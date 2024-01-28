@@ -135,6 +135,9 @@
   <data name="comboBoxTheme.Items1" xml:space="preserve">
     <value>BlauRot</value>
   </data>
+  <data name="comboBoxTheme.Items2" xml:space="preserve">
+    <value>Grau</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>X</value>
   </data>

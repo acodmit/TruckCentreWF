@@ -49,13 +49,13 @@ namespace TruckCentreWF.Forms
             // 
             // panelInfo
             // 
-            resources.ApplyResources(this.panelInfo, "panelInfo");
             this.panelInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(227)))), ((int)(((byte)(222)))));
             this.panelInfo.Controls.Add(this.labelTitle);
             this.panelInfo.Controls.Add(this.labelActiveTickets);
             this.panelInfo.Controls.Add(this.labelFinishedTickets);
             this.panelInfo.Controls.Add(this.labelTotalEmployees);
             this.panelInfo.Controls.Add(this.labelTotalVehicles);
+            resources.ApplyResources(this.panelInfo, "panelInfo");
             this.panelInfo.Name = "panelInfo";
             // 
             // labelTitle
