@@ -1277,4 +1277,28 @@
         //////////////////////////////////8=
 </value>
   </data>
+  <data name="lblClients" xml:space="preserve">
+    <value>Kunden</value>
+  </data>
+  <data name="lblHome" xml:space="preserve">
+    <value>Startseite</value>
+  </data>
+  <data name="lblLogOut" xml:space="preserve">
+    <value>Abmelden</value>
+  </data>
+  <data name="lblParts" xml:space="preserve">
+    <value>Ersatzteile</value>
+  </data>
+  <data name="lblServices" xml:space="preserve">
+    <value>Dienstleistungen</value>
+  </data>
+  <data name="lblServiceTickets" xml:space="preserve">
+    <value>Service Tickets</value>
+  </data>
+  <data name="lblSettings" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="lblVehicles" xml:space="preserve">
+    <value>Fahrzeuge</value>
+  </data>
 </root>
